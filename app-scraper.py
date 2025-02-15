@@ -33,10 +33,10 @@ csv_file = "Updated_Location_Permutations.csv"  # Ensure the CSV file is in the 
 with open(csv_file, "r") as file:
     reader = csv.reader(file)
     # Skip first 15 rows (since index starts from 0)
-    for _ in range(146):
+    for _ in range(245):
         next(reader)
 
-    for index, row in enumerate(reader, start=146):
+    for index, row in enumerate(reader, start=245):
         try:
             pickup, destination = row[0], row[1]
             print(f"🚗 Processing Route {index+1}: Pickup {pickup} -> Destination {destination}")

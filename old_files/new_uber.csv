@@ -1,0 +1,5 @@
+Timestamp,Pickup,Destination,Ride Type,Fare,Drop-off ETA,Additional Info
+2025-03-09 13:03:29,"23.875854, 90.379249","23.7451, 90.3676",selected,UberX,Fare BDT 653.85,"estimated drop-off 2:18pm,  driver is 4 minutes away"
+2025-03-09 13:03:29,"23.875854, 90.379249","23.7451, 90.3676",Moto,BDT 262.08,Discounted from BDT 277.08,"estimated drop-off 2:15pm,  driver is 2 minutes away, estimated capacity 1, Faster"
+2025-03-09 13:03:29,"23.875854, 90.379249","23.7451, 90.3676",UberXL,BDT 1,275.09,"estimated drop-off 2:19pm,  driver is 6 minutes away"
+2025-03-09 13:03:29,"23.875854, 90.379249","23.7451, 90.3676",Premier,BDT 741.73,2:17pm, driver is 3 minutes away

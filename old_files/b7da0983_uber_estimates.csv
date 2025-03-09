@@ -1,0 +1,5 @@
+Timestamp,Device Name,Pickup,Destination,Info,Image Name
+2025-03-09 14:01:35,b7da0983,"23.875854, 90.379249","23.7451, 90.3676","selected,UberX,Fare BDT 647.90,estimated drop-off 3:14pm, driver is 4 minutes away",b7da0983_images/b7da0983_uberx_route_246.png
+2025-03-09 14:01:35,b7da0983,"23.875854, 90.379249","23.7451, 90.3676","Moto,Fare   BDT 326.30,Discounted from BDT 341.30,estimated drop-off 3:13pm, driver is 3 minutes away,estimated capacity 1,Faster",b7da0983_images/b7da0983_uberx_route_246.png
+2025-03-09 14:01:35,b7da0983,"23.875854, 90.379249","23.7451, 90.3676","Premier,Fare BDT 729.71,estimated drop-off 3:14pm, driver is 4 minutes away",b7da0983_images/b7da0983_uberx_route_246.png
+2025-03-09 14:01:35,b7da0983,"23.875854, 90.379249","23.7451, 90.3676","UberXL,Fare BDT 1,272.07,estimated drop-off 3:17pm, driver is 7 minutes away",b7da0983_images/b7da0983_uberx_route_246.png

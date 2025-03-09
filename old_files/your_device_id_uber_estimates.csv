@@ -1,0 +1,17 @@
+Timestamp,Device Name,Pickup,Destination,Info,Image Name
+2025-03-09 13:40:24,your_device_id,"23.875854, 90.379249","23.7451, 90.3676","selected,UberX,Fare BDT 642.58,estimated drop-off 2:52pm, driver is 6 minutes away",images/your_device_id_uberx_route_246.png
+2025-03-09 13:40:24,your_device_id,"23.875854, 90.379249","23.7451, 90.3676","Moto,Fare   BDT 259.68,Discounted from BDT 274.68,estimated drop-off 2:48pm, driver is 2 minutes away,estimated capacity 1,Faster",images/your_device_id_uberx_route_246.png
+2025-03-09 13:40:24,your_device_id,"23.875854, 90.379249","23.7451, 90.3676","UberXL,Fare BDT 1,250.77,estimated drop-off 2:54pm, driver is 8 minutes away",images/your_device_id_uberx_route_246.png
+2025-03-09 13:40:24,your_device_id,"23.875854, 90.379249","23.7451, 90.3676","Premier,Fare BDT 726.96,estimated drop-off 2:50pm, driver is 4 minutes away",images/your_device_id_uberx_route_246.png
+2025-03-09 13:41:00,your_device_id,"23.875854, 90.379249","23.7304, 90.4226","selected,UberX,Fare BDT 723.45,estimated drop-off 2:48pm, driver is 6 minutes away",images/your_device_id_uberx_route_247.png
+2025-03-09 13:41:01,your_device_id,"23.875854, 90.379249","23.7304, 90.4226","Moto,Fare   BDT 308.72,Discounted from BDT 323.72,estimated drop-off 2:44pm, driver is 2 minutes away,estimated capacity 1,Faster",images/your_device_id_uberx_route_247.png
+2025-03-09 13:41:01,your_device_id,"23.875854, 90.379249","23.7304, 90.4226","UberXL,Fare BDT 1,424.84,estimated drop-off 2:50pm, driver is 8 minutes away",images/your_device_id_uberx_route_247.png
+2025-03-09 13:41:01,your_device_id,"23.875854, 90.379249","23.7304, 90.4226","Premier,Fare BDT 817.73,estimated drop-off 2:47pm, driver is 4 minutes away",images/your_device_id_uberx_route_247.png
+2025-03-09 13:41:47,your_device_id,"23.875854, 90.379249","23.7527, 90.4271","selected,UberX,Fare BDT 664.88,estimated drop-off 2:56pm, driver is 6 minutes away",images/your_device_id_uberx_route_248.png
+2025-03-09 13:41:47,your_device_id,"23.875854, 90.379249","23.7527, 90.4271","Moto,Fare   BDT 335.74,Discounted from BDT 350.74,estimated drop-off 2:52pm, driver is 2 minutes away,estimated capacity 1,Faster",images/your_device_id_uberx_route_248.png
+2025-03-09 13:41:47,your_device_id,"23.875854, 90.379249","23.7527, 90.4271","UberXL,Fare BDT 1,316.59,estimated drop-off 2:58pm, driver is 8 minutes away",images/your_device_id_uberx_route_248.png
+2025-03-09 13:41:47,your_device_id,"23.875854, 90.379249","23.7527, 90.4271","Premier,Fare BDT 751.80,estimated drop-off 2:55pm, driver is 4 minutes away",images/your_device_id_uberx_route_248.png
+2025-03-09 13:42:36,your_device_id,"23.875854, 90.379249","23.7409, 90.4116","selected,UberX,Fare BDT 655.02,estimated drop-off 2:42pm, driver is 5 minutes away",images/your_device_id_uberx_route_249.png
+2025-03-09 13:42:36,your_device_id,"23.875854, 90.379249","23.7409, 90.4116","Moto,Fare   BDT 279.67,Discounted from BDT 294.67,estimated drop-off 2:40pm, driver is 2 minutes away,estimated capacity 1,Faster",images/your_device_id_uberx_route_249.png
+2025-03-09 13:42:36,your_device_id,"23.875854, 90.379249","23.7409, 90.4116","Premier,Fare BDT 740.24,estimated drop-off 2:42pm, driver is 4 minutes away",images/your_device_id_uberx_route_249.png
+2025-03-09 13:42:36,your_device_id,"23.875854, 90.379249","23.7409, 90.4116","UberXL,Fare BDT 1,289.30,estimated drop-off 2:45pm, driver is 8 minutes away",images/your_device_id_uberx_route_249.png

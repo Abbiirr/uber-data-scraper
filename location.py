@@ -3,16 +3,16 @@ from itertools import permutations
 
 # Define the list of locations with their coordinates
 locations = [
-    {"name": "Gulshan 1", "latitude": 23.780636, "longitude": 90.419326},
-    {"name": "Gulshan 2", "latitude": 23.791600, "longitude": 90.416787},
-    {"name": "Banani", "latitude": 23.793584, "longitude": 90.404194},
-    {"name": "Baridhara", "latitude": 23.810331, "longitude": 90.426283},
-    {"name": "Uttara", "latitude": 23.875854, "longitude": 90.379249},
-    {"name": "Dhanmondi", "latitude": 23.746466, "longitude": 90.376015},
-    {"name": "Motijheel", "latitude": 23.731888, "longitude": 90.412521},
-    {"name": "Mohakhali", "latitude": 23.777264, "longitude": 90.403492},
-    {"name": "Farmgate", "latitude": 23.757547, "longitude": 90.391962},
-    {"name": "Shahbagh", "latitude": 23.738064, "longitude": 90.394469}
+    {"name": "Gulshan 1", "latitude": 23.780378917169333, "longitude": 90.41672810537362},
+    {"name": "Gulshan 2", "latitude": 23.794761328207716, "longitude": 90.41431025769957},
+    {"name": "Banani", "latitude": 23.795632264992097, "longitude": 90.40082773269607},
+    {"name": "Baridhara", "latitude": 23.7977160735167, "longitude": 90.42333172053618},
+    {"name": "Uttara", "latitude": 23.87096277222152, "longitude": 90.40028249779219},
+    {"name": "Dhanmondi", "latitude": 23.739543382478974, "longitude": 90.3831857005473},
+    {"name": "Motijheel", "latitude": 23.730200638200436, "longitude": 90.41019959557929},
+    {"name": "Mohakhali", "latitude": 23.781145352505032, "longitude": 90.39818465826089},
+    {"name": "Farmgate", "latitude": 23.75780240225943, "longitude": 90.39003129024594},
+    {"name": "Shahbagh", "latitude": 23.738125033603566, "longitude": 90.39582712625963},
 ]
 
 # Generate all permutations of the locations taken 2 at a time

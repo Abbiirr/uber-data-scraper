@@ -37,6 +37,8 @@ Run the following commands:
 ```sh
 npm install -g appium
 npm install -g appium-uiautomator2-driver
+appium driver install uiautomator2
+
 ```
 
 ### Step 4: Install Python Dependencies

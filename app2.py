@@ -18,15 +18,18 @@ KAFKA_BROKER = "localhost:9092"  # Change this if needed
 KAFKA_TOPIC = "uber-data-scrap-raw"  # Updated topic name
 
 # Setup logging
+import logging
+
 log_filename = "uber_routes.log"
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler(log_filename, mode="a"),
+        logging.FileHandler(log_filename, mode="a", encoding="utf-8"),  # ✅ Set encoding to UTF-8
         logging.StreamHandler()
     ]
 )
+
 
 # Function to fetch the device ID dynamically
 def get_device_id():
@@ -101,47 +104,37 @@ for index, row in enumerate(routes, start=1):
 
         # Step 2: Select pickup
         el2 = wait.until(EC.presence_of_element_located(
-            (AppiumBy.XPATH, "//android.widget.TextView[starts-with(@content-desc, 'pickup location ')]")
+            (AppiumBy.ID, "com.ubercab:id/ub__location_edit_search_pickup_view")
         ))
         el2.click()
 
         # Step 3: Confirm pickup
-        el3 = wait.until(EC.element_to_be_clickable((AppiumBy.ID, "com.ubercab:id/image_view")))
+        el3 = driver.find_element(AppiumBy.ID, "com.ubercab:id/image_view")
         el3.click()
 
         # Step 4: Enter new pickup coordinates
-        el4 = wait.until(EC.presence_of_element_located((AppiumBy.ID, "com.ubercab:id/edit_text")))
+        el4 = driver.find_element(AppiumBy.ID, "com.ubercab:id/edit_text")
         el4.clear()
-        el4.send_keys(pickup_coords)
+        el4.send_keys(start_location_name)  # Replace with `pickup_coords` if using dynamic input
 
-        # Step 5: Select first search result
-        el5 = wait.until(EC.element_to_be_clickable(
-            (AppiumBy.ANDROID_UIAUTOMATOR, f'new UiSelector().text("Get more results for {pickup_coords}")')
-        ))
+        # Step 5: Select first search result for pickup
+        el5 = driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR, f'new UiSelector().text("{start_location_name}")')
         el5.click()
 
         # Step 6: Confirm pickup location
-        el6 = wait.until(EC.element_to_be_clickable(
-            (AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().className("android.widget.ImageView").instance(2)')
-        ))
+        el6 = driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR,
+                                  'new UiSelector().className("android.widget.LinearLayout").instance(19)')
         el6.click()
 
         # Step 7: Enter destination
-        el7 = wait.until(EC.presence_of_element_located((AppiumBy.ID, "com.ubercab:id/edit_text")))
+        el7 = driver.find_element(AppiumBy.ID, "com.ubercab:id/edit_text")
         el7.click()
-        el7.send_keys(destination_coords)
+        el7.send_keys(end_location_name)  # Replace with `destination_coords` if using dynamic input
 
         # Step 8: Select first search result for destination
-        el8 = wait.until(EC.element_to_be_clickable(
-            (AppiumBy.ANDROID_UIAUTOMATOR, f'new UiSelector().text("Get more results for {destination_coords}")')
-        ))
+        el8 = driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR,
+                                  'new UiSelector().className("android.widget.LinearLayout").instance(19)')
         el8.click()
-
-        # Step 9: Confirm destination
-        el9 = wait.until(EC.element_to_be_clickable(
-            (AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().className("android.widget.ImageView").instance(2)')
-        ))
-        el9.click()
 
         # Step 10: Wait for ride options
         print("⏳ Fetching Ride Estimates...")

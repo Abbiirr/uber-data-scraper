@@ -11,6 +11,11 @@ from selenium.webdriver.support import expected_conditions as EC
 import logging
 import subprocess
 import uuid
+from kafka import KafkaProducer  # Import Kafka producer
+import json
+
+KAFKA_BROKER = "localhost:9092"  # Change this if needed
+KAFKA_TOPIC = "uber-data-scrap-raw"  # Updated topic name
 
 # Setup logging
 log_filename = "uber_routes.log"
@@ -36,6 +41,12 @@ def get_device_id():
         return "unknown_device"
 
 device_id = get_device_id()
+
+# Initialize Kafka Producer
+producer = KafkaProducer(
+    bootstrap_servers=KAFKA_BROKER,
+    value_serializer=lambda v: json.dumps(v).encode("utf-8")  # Ensure messages are JSON-encoded
+)
 
 # Define capabilities
 options = UiAutomator2Options()
@@ -152,24 +163,37 @@ for index, row in enumerate(routes, start=1):
 
         for ride in ride_elements:
             ride_details = ride.get_attribute("content-desc").strip()
-            ride_data.append([
-                unique_id,  # Unique ID added at the start
-                datetime.now().strftime("%Y-%m-%d %H:%M:%S"), device_id,
-                pickup_coords, destination_coords,
-                start_location_name, end_location_name,
-                ride_details, screenshot_path
-            ])
 
-        # Save ride data to CSV immediately
+            ride_entry = {
+                "uniqueId": unique_id,
+                "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                "deviceName": device_id,
+                "pickupCoordinates": pickup_coords,
+                "destinationCoordinates": destination_coords,
+                "startLocation": start_location_name,
+                "endLocation": end_location_name,
+                "info": ride_details,
+                "imagePath": screenshot_path
+            }
+
+            ride_data.append(ride_entry)
+
+            # Send message to Kafka
+            producer.send(KAFKA_TOPIC, value=ride_entry)
+            logging.info(f"🚀 Published to Kafka: {ride_entry}")
+
+            # Save ride data to CSV immediately
         with open(csv_filename, "a", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
-            writer.writerows(ride_data)
+            for ride in ride_data:
+                writer.writerow([
+                    ride["uniqueId"], ride["timestamp"], ride["deviceName"],
+                    ride["pickupCoordinates"], ride["destinationCoordinates"],
+                    ride["startLocation"], ride["endLocation"],
+                    ride["info"], ride["imagePath"]
+                ])
 
-        # Log ride data
-        for ride in ride_data:
-            logging.info(f"Ride Data: {ride}")
-
-        print("💾 Ride data saved to CSV.")
+        print("💾 Ride data saved to CSV and published to Kafka.")
 
         # Step 12: Open Uber Menu & Go back to home
         try:
@@ -191,3 +215,6 @@ for index, row in enumerate(routes, start=1):
 # Close session
 input("Press Enter to close Appium session...")
 driver.quit()
+
+# Close Kafka producer
+producer.close()

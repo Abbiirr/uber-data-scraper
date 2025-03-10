@@ -5,3 +5,4 @@ subprocess-run
 pandas
 undetected-chromedriver
 webdriver-manager
+kafka-python

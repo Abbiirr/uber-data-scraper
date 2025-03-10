@@ -2,12 +2,24 @@ import os
 import time
 import csv
 import random
+import json
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from datetime import datetime
+from kafka import KafkaProducer  # Import Kafka producer
+
+# Kafka configuration
+KAFKA_BROKER = "localhost:9092"  # Change this if needed
+KAFKA_TOPIC = "gmaps-data-scrap"  # Kafka topic for Google Maps data
+
+# Initialize Kafka Producer
+producer = KafkaProducer(
+    bootstrap_servers=KAFKA_BROKER,
+    value_serializer=lambda v: json.dumps(v).encode("utf-8")  # Ensure messages are JSON-encoded
+)
 
 # Constants
 LOCATION_FILE = "location_pairs.csv"
@@ -67,23 +79,16 @@ try:
             # Initialize values
             travel_time, distance = "N/A", "N/A"
 
-            # Try extracting travel time (CSS first, then XPath fallback)
+            # Try extracting travel time
             try:
                 travel_time_element = WebDriverWait(driver, 10).until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, "#section-directions-trip-0 > div.MespJc > div > div.XdKEzd > div.Fk3sm.fontHeadlineSmall[class*='delay-']"))
                 )
                 travel_time = travel_time_element.text.strip()
             except Exception:
-                print("⚠️ Travel Time CSS Selector Failed. Trying XPath...")
-                try:
-                    travel_time_element = WebDriverWait(driver, 10).until(
-                        EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div[3]/div[8]/div[9]/div/div/div[1]/div[2]/div/div[1]/div/div/div[5]/div[1]/div[1]/div/div[1]/div[1]"))
-                    )
-                    travel_time = travel_time_element.text.strip()
-                except Exception:
-                    print("⚠️ Could not extract Travel Time.")
+                print("⚠️ Could not extract Travel Time.")
 
-            # Try extracting distance using CSS Selector
+            # Try extracting distance
             try:
                 distance_element = WebDriverWait(driver, 10).until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, "#section-directions-trip-0 > div.MespJc > div > div.XdKEzd > div.ivN21e.tUEI8e.fontBodyMedium > div"))
@@ -113,6 +118,23 @@ try:
 
             print(f"✅ Data saved: {start_name} → {end_name} | Time: {travel_time}, Distance: {distance}")
 
+            # Prepare message for Kafka
+            kafka_message = {
+                "timestamp": timestamp,
+                "start_location_name": start_name,
+                "end_location_name": end_name,
+                "start_coordinates": start_coords,
+                "end_coordinates": end_coords,
+                "travel_time": travel_time,
+                "distance": distance,
+                "screenshot_path": screenshot_path
+            }
+
+            # Send message to Kafka
+            producer.send(KAFKA_TOPIC, value=kafka_message)
+            producer.flush()  # Ensure immediate publishing
+            print(f"🚀 Published to Kafka: {kafka_message}")
+
             # Random wait time between 5 to 10 minutes
             wait_time = random.randint(300, 600)  # Random seconds between 5 and 10 minutes
             print(f"⏳ Waiting {wait_time // 60} minutes before switching to next location...\n")
@@ -121,3 +143,4 @@ try:
 except KeyboardInterrupt:
     print("🛑 Stopping script...")
     driver.quit()
+    producer.close()

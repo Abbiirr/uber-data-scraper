@@ -10,6 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import logging
 import subprocess
+import uuid
 
 # Setup logging
 log_filename = "uber_routes.log"
@@ -53,7 +54,7 @@ csv_filename = f"{device_id}_uber_estimates.csv"
 # CSV File Setup
 with open(csv_filename, "w", newline="", encoding="utf-8") as file:
     writer = csv.writer(file)
-    writer.writerow(["Timestamp", "Device Name", "Pickup Coordinates", "Destination Coordinates",
+    writer.writerow(["Unique ID", "Timestamp", "Device Name", "Pickup Coordinates", "Destination Coordinates",
                      "Start Location Name", "End Location Name", "Info", "Image Name"])
 
 # Read CSV file with locations and randomize order
@@ -70,6 +71,9 @@ random.shuffle(routes)
 
 for index, row in enumerate(routes, start=1):
     try:
+        # Generate a unique ID
+        unique_id = str(uuid.uuid4())
+
         # Extract and clean values
         pickup_coords = row[0].strip('"()')  # Remove parentheses and quotes
         destination_coords = row[1].strip('"()')
@@ -149,6 +153,7 @@ for index, row in enumerate(routes, start=1):
         for ride in ride_elements:
             ride_details = ride.get_attribute("content-desc").strip()
             ride_data.append([
+                unique_id,  # Unique ID added at the start
                 datetime.now().strftime("%Y-%m-%d %H:%M:%S"), device_id,
                 pickup_coords, destination_coords,
                 start_location_name, end_location_name,

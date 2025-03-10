@@ -3,3 +3,5 @@ selenium
 logging
 subprocess-run
 pandas
+undetected-chromedriver
+webdriver-manager

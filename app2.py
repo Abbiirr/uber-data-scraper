@@ -26,6 +26,7 @@ logging.basicConfig(
     handlers=[logging.FileHandler(log_filename, mode="a", encoding="utf-8"), logging.StreamHandler()]
 )
 
+
 # Fetch device ID dynamically
 def get_device_id():
     try:
@@ -36,6 +37,7 @@ def get_device_id():
     except Exception as e:
         logging.error(f"❌ Could not fetch device ID: {e}")
     return "unknown_device"
+
 
 device_id = get_device_id()
 
@@ -75,6 +77,7 @@ random.shuffle(routes)
 # Ensure screenshot directory exists
 screenshot_dir = f"{device_id}_images"
 os.makedirs(screenshot_dir, exist_ok=True)
+
 
 # Fallback: Go back if stuck
 def go_back():
@@ -164,7 +167,8 @@ for index, row in enumerate(routes, start=1):
             continue
 
         # Step 6: Confirm pickup location
-        if not perform_action(AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().className("android.widget.LinearLayout").instance(19)'):
+        if not perform_action(AppiumBy.ANDROID_UIAUTOMATOR,
+                              'new UiSelector().className("android.widget.LinearLayout").instance(19)'):
             continue
 
         # Step 7: Enter destination
@@ -172,11 +176,22 @@ for index, row in enumerate(routes, start=1):
             continue
 
         # Step 8: Select destination from suggestions
-        if not perform_action(AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().className("android.widget.LinearLayout").instance(19)'):
+        if not perform_action(AppiumBy.ANDROID_UIAUTOMATOR,
+                              'new UiSelector().className("android.widget.LinearLayout").instance(19)'):
             continue
 
         logging.info("⏳ Fetching Ride Estimates...")
-        time.sleep(5)
+
+        try:
+            # ✅ Wait up to 10 seconds for at least one ride option to appear
+            WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((AppiumBy.XPATH, "//android.view.View[contains(@content-desc, 'Fare')]"))
+            )
+            logging.info("✅ Ride Estimates Loaded Successfully.")
+        except TimeoutException:
+            logging.error("❌ Ride Estimates did not load in time. Skipping this route.")
+            go_back()
+            continue  # Skip to the next route
 
         # Step 9: Extract ride information
         ride_data = []

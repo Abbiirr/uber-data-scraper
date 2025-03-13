@@ -5,7 +5,7 @@ from datetime import datetime
 from kafka import KafkaProducer  # Import Kafka producer
 
 # Kafka configuration
-KAFKA_BROKER = "localhost:9092"
+KAFKA_BROKER = "172.16.231.135:31000"
 KAFKA_TOPIC = "uber-data-scrap-processed"
 
 # Initialize Kafka Producer
@@ -15,7 +15,7 @@ producer = KafkaProducer(
 )
 
 # Load data from CSV file
-df = pd.read_csv("b7da0983_uber_estimates.csv")
+df = pd.read_csv("R58T33M77TL_uber_estimates.csv")
 
 # Extract date, time, and datetime
 df["date"] = df["Timestamp"].apply(lambda x: x.split()[0])
@@ -97,7 +97,7 @@ final_df = df[
      "time", "datetime", "fare_price", "travel_duration", "day_of_week_num", "travel_distance_km", "method", "image"]]
 
 # Save transformed dataset to CSV
-final_df.to_csv("parsed_result.csv", index=False)
+final_df.to_csv("parsed_result_new.csv", index=False)
 
 # Display transformed dataset
 print(final_df)

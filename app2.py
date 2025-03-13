@@ -2,53 +2,47 @@ import csv
 import time
 import random
 import os
+import subprocess
+import uuid
+import json
+import logging
 from datetime import datetime
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
 from appium.webdriver.common.appiumby import AppiumBy
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import logging
-import subprocess
-import uuid
-from kafka import KafkaProducer  # Import Kafka producer
-import json
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from kafka import KafkaProducer
 
-KAFKA_BROKER = "localhost:9092"  # Change this if needed
-KAFKA_TOPIC = "uber-data-scrap-raw"  # Updated topic name
+KAFKA_BROKER = "172.16.231.135:31000"
+KAFKA_TOPIC = "uber-data-scrap-raw"
 
 # Setup logging
-import logging
-
 log_filename = "uber_routes.log"
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler(log_filename, mode="a", encoding="utf-8"),  # ✅ Set encoding to UTF-8
-        logging.StreamHandler()
-    ]
+    handlers=[logging.FileHandler(log_filename, mode="a", encoding="utf-8"), logging.StreamHandler()]
 )
 
-
-# Function to fetch the device ID dynamically
+# Fetch device ID dynamically
 def get_device_id():
     try:
         result = subprocess.run(["adb", "devices"], capture_output=True, text=True)
         lines = result.stdout.strip().split("\n")
         if len(lines) > 1:
-            device_id = lines[1].split("\t")[0]  # Extract the first connected device ID
-            return device_id if device_id else "unknown_device"
+            return lines[1].split("\t")[0] or "unknown_device"
     except Exception as e:
-        print(f"❌ Could not fetch device ID: {e}")
-        return "unknown_device"
+        logging.error(f"❌ Could not fetch device ID: {e}")
+    return "unknown_device"
 
 device_id = get_device_id()
 
 # Initialize Kafka Producer
 producer = KafkaProducer(
     bootstrap_servers=KAFKA_BROKER,
-    value_serializer=lambda v: json.dumps(v).encode("utf-8")  # Ensure messages are JSON-encoded
+    value_serializer=lambda v: json.dumps(v).encode("utf-8")
 )
 
 # Define capabilities
@@ -60,103 +54,140 @@ options.dont_stop_app_on_reset = True
 
 # Connect to Uber App
 driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
-print("✅ Connected to Running Uber App!")
+logging.info("✅ Connected to Running Uber App!")
 
 # Set dynamic filenames
 csv_filename = f"{device_id}_uber_estimates.csv"
 
-# CSV File Setup
+# CSV Setup
 with open(csv_filename, "w", newline="", encoding="utf-8") as file:
     writer = csv.writer(file)
     writer.writerow(["Unique ID", "Timestamp", "Device Name", "Pickup Coordinates", "Destination Coordinates",
                      "Start Location Name", "End Location Name", "Info", "Image Name"])
 
-# Read CSV file with locations and randomize order
-csv_file = "location_pairs.csv"
-with open(csv_file, "r") as file:
-    reader = csv.reader(file)
-    routes = list(reader)
+# Read and shuffle routes
+with open("location_pairs_with_dummy_coordinates.csv", "r") as file:
+    routes = list(csv.reader(file))
 
-# Remove header
-header = routes.pop(0)
-
-# Shuffle the route order
+routes.pop(0)  # Remove header
 random.shuffle(routes)
 
+# Ensure screenshot directory exists
+screenshot_dir = f"{device_id}_images"
+os.makedirs(screenshot_dir, exist_ok=True)
+
+# Fallback: Go back if stuck
+def go_back():
+    """Attempts to navigate back and waits for the home screen to load."""
+    try:
+        back_btn = driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().description("Back")')
+        back_btn.click()
+        logging.info("🔙 Navigated back successfully.")
+    except NoSuchElementException:
+        logging.warning("⚠️ 'Back' button not found. Using device back button.")
+        driver.back()
+
+    # ✅ Wait for "Enter destination" to appear before continuing
+    try:
+        WebDriverWait(driver, 5).until(
+            EC.presence_of_element_located((AppiumBy.ACCESSIBILITY_ID, "Enter destination"))
+        )
+        logging.info("🏠 Uber home page detected. Continuing...")
+    except TimeoutException:
+        logging.error("⚠️ Uber home page not detected after going back! It may be stuck.")
+
+
+# Perform action with fallback
+def perform_action(by, locator, action="click", value=None, timeout=10):
+    """
+    Performs an action (click or send_keys) on a UI element with fallback handling.
+    Waits for the element to be present before acting.
+    """
+    try:
+        element = WebDriverWait(driver, timeout).until(
+            EC.presence_of_element_located((by, locator))
+        )
+        if action == "click":
+            element.click()
+        elif action == "send_keys" and value:
+            element.clear()
+            element.send_keys(value)
+        return True
+    except TimeoutException:
+        logging.error(f"❌ Timeout: Element {locator} not found after {timeout} seconds. Retrying once...")
+
+        # Retry once after waiting 3 extra seconds
+        time.sleep(3)
+        try:
+            element = WebDriverWait(driver, timeout).until(
+                EC.presence_of_element_located((by, locator))
+            )
+            if action == "click":
+                element.click()
+            elif action == "send_keys" and value:
+                element.clear()
+                element.send_keys(value)
+            logging.info(f"✅ Element {locator} found on retry.")
+            return True
+        except TimeoutException:
+            logging.error(f"❌ Element {locator} still not found after retry. Going back...")
+            go_back()
+            return False
+
+
+# Process routes
 for index, row in enumerate(routes, start=1):
     try:
-        # Generate a unique ID
         unique_id = str(uuid.uuid4())
+        pickup_coords, destination_coords, start_location_name, end_location_name = map(str.strip, row)
 
-        # Extract and clean values
-        pickup_coords = row[0].strip('"()')  # Remove parentheses and quotes
-        destination_coords = row[1].strip('"()')
-        start_location_name = row[2]
-        end_location_name = row[3]
-
-        print(f"🚗 Processing Route {index}: {start_location_name} -> {end_location_name} ({pickup_coords} -> {destination_coords})")
-
-        wait = WebDriverWait(driver, 10)
+        logging.info(f"🚗 Processing Route {index}: {start_location_name} -> {end_location_name}")
 
         # Step 1: Tap "Enter destination"
-        el1 = wait.until(EC.presence_of_element_located((AppiumBy.ACCESSIBILITY_ID, "Enter destination")))
-        el1.click()
+        if not perform_action(AppiumBy.ACCESSIBILITY_ID, "Enter destination"):
+            continue
 
-        # Step 2: Select pickup
-        el2 = wait.until(EC.presence_of_element_located(
-            (AppiumBy.ID, "com.ubercab:id/ub__location_edit_search_pickup_view")
-        ))
-        el2.click()
+        # Step 2: Select pickup location
+        if not perform_action(AppiumBy.ID, "com.ubercab:id/ub__location_edit_search_pickup_view"):
+            continue
 
         # Step 3: Confirm pickup
-        el3 = driver.find_element(AppiumBy.ID, "com.ubercab:id/image_view")
-        el3.click()
+        if not perform_action(AppiumBy.ID, "com.ubercab:id/image_view"):
+            continue
 
-        # Step 4: Enter new pickup coordinates
-        el4 = driver.find_element(AppiumBy.ID, "com.ubercab:id/edit_text")
-        el4.clear()
-        el4.send_keys(start_location_name)  # Replace with `pickup_coords` if using dynamic input
+        # Step 4: Enter pickup coordinates
+        if not perform_action(AppiumBy.ID, "com.ubercab:id/edit_text", "send_keys", start_location_name):
+            continue
 
-        # Step 5: Select first search result for pickup
-        el5 = driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR, f'new UiSelector().text("{start_location_name}")')
-        el5.click()
+        # Step 5: Select pickup location from suggestions
+        if not perform_action(AppiumBy.ANDROID_UIAUTOMATOR, f'new UiSelector().text("{start_location_name}")'):
+            continue
 
         # Step 6: Confirm pickup location
-        el6 = driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR,
-                                  'new UiSelector().className("android.widget.LinearLayout").instance(19)')
-        el6.click()
+        if not perform_action(AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().className("android.widget.LinearLayout").instance(19)'):
+            continue
 
         # Step 7: Enter destination
-        el7 = driver.find_element(AppiumBy.ID, "com.ubercab:id/edit_text")
-        el7.click()
-        el7.send_keys(end_location_name)  # Replace with `destination_coords` if using dynamic input
+        if not perform_action(AppiumBy.ID, "com.ubercab:id/edit_text", "send_keys", end_location_name):
+            continue
 
-        # Step 8: Select first search result for destination
-        el8 = driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR,
-                                  'new UiSelector().className("android.widget.LinearLayout").instance(19)')
-        el8.click()
+        # Step 8: Select destination from suggestions
+        if not perform_action(AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().className("android.widget.LinearLayout").instance(19)'):
+            continue
 
-        # Step 10: Wait for ride options
-        print("⏳ Fetching Ride Estimates...")
+        logging.info("⏳ Fetching Ride Estimates...")
         time.sleep(5)
 
-        # Step 11: Extract Ride Information
+        # Step 9: Extract ride information
         ride_data = []
         ride_elements = driver.find_elements(AppiumBy.XPATH, "//android.view.View[contains(@content-desc, 'Fare')]")
 
-        # Ensure directory for screenshots exists
-        screenshot_dir = f"{device_id}_images"
-        os.makedirs(screenshot_dir, exist_ok=True)
-
-        # Generate timestamp for screenshot filename
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         screenshot_path = f"{screenshot_dir}/{device_id}_uberx_route_{index}_{timestamp}.png"
         driver.save_screenshot(screenshot_path)
-        print(f"📸 Screenshot saved: {screenshot_path}")
+        logging.info(f"📸 Screenshot saved: {screenshot_path}")
 
         for ride in ride_elements:
-            ride_details = ride.get_attribute("content-desc").strip()
-
             ride_entry = {
                 "uniqueId": unique_id,
                 "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -165,49 +196,32 @@ for index, row in enumerate(routes, start=1):
                 "destinationCoordinates": destination_coords,
                 "startLocation": start_location_name,
                 "endLocation": end_location_name,
-                "info": ride_details,
+                "info": ride.get_attribute("content-desc").strip(),
                 "imagePath": screenshot_path
             }
-
             ride_data.append(ride_entry)
-
-            # Send message to Kafka
             producer.send(KAFKA_TOPIC, value=ride_entry)
             logging.info(f"🚀 Published to Kafka: {ride_entry}")
 
-            # Save ride data to CSV immediately
+        # Save to CSV
         with open(csv_filename, "a", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
             for ride in ride_data:
-                writer.writerow([
-                    ride["uniqueId"], ride["timestamp"], ride["deviceName"],
-                    ride["pickupCoordinates"], ride["destinationCoordinates"],
-                    ride["startLocation"], ride["endLocation"],
-                    ride["info"], ride["imagePath"]
-                ])
+                writer.writerow(ride.values())
 
-        print("💾 Ride data saved to CSV and published to Kafka.")
+        logging.info("💾 Ride data saved and published to Kafka.")
 
-        # Step 12: Open Uber Menu & Go back to home
-        try:
-            el10 = wait.until(EC.element_to_be_clickable((AppiumBy.ACCESSIBILITY_ID, "Menu")))
-            el10.click()
-
-            el11 = wait.until(EC.element_to_be_clickable(
-                (AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().description("Back")')
-            ))
-            el11.click()
-        except:
-            print("⚠️ Unable to navigate back to home.")
+        # Step 10: Open Uber Menu & Go back to home
+        if not perform_action(AppiumBy.ACCESSIBILITY_ID, "Menu"):
+            continue
+        if not perform_action(AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().description("Back")'):
+            continue
 
     except Exception as e:
-        error_message = f"❌ Error processing route {index}: {e}"
-        print(error_message)
-        logging.error(error_message)
+        logging.error(f"❌ Error processing route {index}: {e}")
+        driver.save_screenshot(f"{screenshot_dir}/error_{index}.png")
 
 # Close session
 input("Press Enter to close Appium session...")
 driver.quit()
-
-# Close Kafka producer
 producer.close()

@@ -6,3 +6,7 @@ pandas
 undetected-chromedriver
 webdriver-manager
 kafka-python
+geopandas
+matplotlib
+shapely
+contextily

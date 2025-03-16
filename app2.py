@@ -138,6 +138,28 @@ def perform_action(by, locator, action="click", value=None, timeout=10):
             return False
 
 
+def is_element_present(by, locator, timeout=5):
+    """Check if an element exists within a given timeout."""
+    try:
+        WebDriverWait(driver, timeout).until(
+            EC.presence_of_element_located((by, locator))
+        )
+        return True  # ✅ Element exists
+    except TimeoutException:
+        return False  # ❌ Element not found
+
+surge_price_xpaths = [
+    '//android.widget.TextView[@content-desc="Fares are slightly higher due to increased demand"]',
+    '//android.widget.TextView[@content-desc="Fares are higher due to increased demand"]'
+]
+
+def is_surge_pricing():
+    """Checks if surge pricing message is displayed."""
+    for xpath in surge_price_xpaths:
+        if is_element_present(AppiumBy.XPATH, xpath):
+            return True  # ✅ Surge pricing detected
+    return False  # ❌ No surge pricing
+
 # Process routes
 for index, row in enumerate(routes, start=1):
     try:
@@ -193,6 +215,14 @@ for index, row in enumerate(routes, start=1):
             go_back()
             continue  # Skip to the next route
 
+        # Detect surge pricing before extracting ride information
+        is_surge_price = is_surge_pricing()
+
+        if is_surge_price:
+            logging.warning("⚠️ Surge Pricing Alert Detected!")
+        else:
+            logging.info("✅ No surge pricing message detected.")
+
         # Step 9: Extract ride information
         ride_data = []
         ride_elements = driver.find_elements(AppiumBy.XPATH, "//android.view.View[contains(@content-desc, 'Fare')]")
@@ -212,7 +242,8 @@ for index, row in enumerate(routes, start=1):
                 "startLocation": start_location_name,
                 "endLocation": end_location_name,
                 "info": ride.get_attribute("content-desc").strip(),
-                "imagePath": screenshot_path
+                "imagePath": screenshot_path,
+                "is_surge_price": is_surge_price  # ✅ New field added
             }
             ride_data.append(ride_entry)
             producer.send(KAFKA_TOPIC, value=ride_entry)

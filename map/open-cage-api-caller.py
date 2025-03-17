@@ -6,7 +6,7 @@ import json
 import re
 
 # Load CSV file safely
-file_path = "location-files/Remaining_Locations__No_Coordinates_Found_-1.csv"
+file_path = "location-files/Remaining_Locations__No_Coordinates_Found_-4.csv"
 df_locations = pd.read_csv(file_path)
 
 # Ensure column exists and rename if necessary
@@ -14,10 +14,10 @@ if 'location' not in df_locations.columns:
     df_locations.rename(columns={df_locations.columns[0]: 'location'}, inplace=True)
 
 # OpenCage API Key
-API_KEY = "2981fb9acfce4f088a2e29f3783a6a8d"
+API_KEY = "bc7cfb5ba07c485198cf4f580fc74a87"
 
 # Output CSV file
-output_file_path = "location_with-coordinates.csv"
+output_file_path = "location_with-coordinates-4.csv"
 json_output_dir = "api_responses"
 
 # Ensure the directory for JSON responses exists

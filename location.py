@@ -22,7 +22,7 @@ location_pairs = permutations(locations, 2)
 header = ['Start Coordinates', 'End Coordinates', 'Start Location Name', 'End Location Name']
 
 # Write the data to a CSV file
-with open('location_pairs.csv', 'w', newline='') as file:
+with open('uber/location_pairs.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(header)
     for start, end in location_pairs:

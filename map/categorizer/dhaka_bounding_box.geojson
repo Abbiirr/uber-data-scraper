@@ -1,0 +1,38 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            90.3301919,
+                            23.6615544
+                        ],
+                        [
+                            90.5091861,
+                            23.6615544
+                        ],
+                        [
+                            90.5091861,
+                            23.9001266
+                        ],
+                        [
+                            90.3301919,
+                            23.9001266
+                        ],
+                        [
+                            90.3301919,
+                            23.6615544
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Dhaka Bounding Box"
+            }
+        }
+    ]
+}

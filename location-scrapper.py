@@ -4,33 +4,32 @@ import time
 import os
 import json
 import re
+import csv
 
 # Load CSV file containing locations
-file_path = "last_part_quoted_from_pickup_locations.csv"
-df_locations = pd.read_csv(file_path)
+file_path = "unique_last_part.csv"
+df_locations = pd.read_csv(file_path, dtype=str)
 
 # Ensure column exists and rename it
 if 'Last Part' not in df_locations.columns:
     df_locations.rename(columns={df_locations.columns[0]: 'Last Part'}, inplace=True)
 
 # Barikoi API Key (Replace with your actual key)
-API_KEY = "bkoi_4cfa06cfa610e343f92f167449abd92ce859b3629371ea8908b7ffb2fa890721"
+API_KEY = "bkoi_daaf88c294362d1b0e0c3f29b96b64477ee293407221fdd6657c792f104b09c6"
 
 # Output CSV file for results
-output_file_path = "barikoi_location_results.csv"
+output_file_path = "barikoi_location_results-3.csv"
 json_output_dir = "barikoi_api_responses"
 
 # Ensure the directory for JSON responses exists
 os.makedirs(json_output_dir, exist_ok=True)
 
-# Load existing data if the file exists
+# Check if the output CSV already exists and load processed locations
 if os.path.exists(output_file_path):
-    existing_df = pd.read_csv(output_file_path)
+    existing_df = pd.read_csv(output_file_path, dtype=str)
     processed_locations = set(existing_df['location'].astype(str))
-    processed_count = len(existing_df)
 else:
     processed_locations = set()
-    processed_count = 0
 
 
 # Function to sanitize filenames
@@ -53,6 +52,8 @@ def get_barikoi_data(location):
                 json.dump(data, json_file, indent=4)
 
             return data  # Return full JSON response
+        else:
+            print(f"⚠️ API returned non-200 status for {location}: {response.status_code}")
 
     except requests.exceptions.RequestException as e:
         print(f"❌ Request failed for {location}: {e}")
@@ -60,9 +61,21 @@ def get_barikoi_data(location):
     return None  # Return None if no valid data found
 
 
-# Open CSV file in append mode
-with open(output_file_path, "a", encoding="utf-8") as f:
-    for location in df_locations['Last Part'].dropna().astype(str).unique():
+# Ensure CSV has a proper header
+file_exists = os.path.exists(output_file_path)
+
+with open(output_file_path, "a", encoding="utf-8", newline="") as f:
+    writer = csv.writer(f, quoting=csv.QUOTE_ALL)
+
+    # Write headers if the file does not exist
+    if not file_exists:
+        writer.writerow(["location", "address", "area", "city", "longitude", "latitude"])
+
+    # Skip the first 190 locations before processing
+    unique_locations = df_locations['Last Part'].dropna().astype(str).unique()[190:]
+
+    processed_count = 0
+    for location in unique_locations:
         if location in processed_locations:
             continue  # Skip already processed locations
 
@@ -71,15 +84,22 @@ with open(output_file_path, "a", encoding="utf-8") as f:
         # Extract relevant fields
         if data and 'places' in data and len(data['places']) > 0:
             place = data['places'][0]  # Take the first result
-            formatted_data = f'"{place.get("address", "")}", "{place.get("area", "")}", "{place.get("city", "")}", "{place.get("longitude", "")}", "{place.get("latitude", "")}"'
+            formatted_row = [
+                location,
+                place.get("address", ""),
+                place.get("area", ""),
+                place.get("city", ""),
+                place.get("longitude", ""),
+                place.get("latitude", "")
+            ]
         else:
-            formatted_data = '""'  # If no data found, write blank
+            formatted_row = [location, "", "", "", "", ""]  # If no data found, write blank fields
 
         # Save to CSV
-        f.write(f'"{location}", {formatted_data}\n')
-
+        writer.writerow(formatted_row)
         processed_count += 1
-        print(f"✅ Processed {processed_count}: {location} -> {formatted_data}")
+
+        print(f"✅ Processed {processed_count}: {location} -> {formatted_row}")
 
         time.sleep(1)  # Avoid hitting rate limits
 

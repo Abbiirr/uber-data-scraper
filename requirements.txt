@@ -11,3 +11,4 @@ matplotlib
 shapely
 contextily
 folium
+pyautogui

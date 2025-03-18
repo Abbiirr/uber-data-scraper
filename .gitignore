@@ -6,3 +6,5 @@
 *.log
 
 api_responses/
+
+barikoi_api_responses/

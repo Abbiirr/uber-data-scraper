@@ -32,7 +32,7 @@ def extract_groups(text):
 
 
 # Read the text file containing the data
-with open("../conversation.txt", "r", encoding="utf-8") as f:
+with open("conversation.txt", "r", encoding="utf-8") as f:
     text = f.read()
 
 # Extract groups from the text file

@@ -3,6 +3,7 @@ import json
 import random
 import os
 import shutil
+import pyperclip  # For clipboard access
 import pandas as pd
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
@@ -14,7 +15,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 # Load and clean the CSV
 file_path = "unique_pickup_points.csv"
 try:
-    df = pd.read_csv(file_path, names=["Location"], skiprows=1130)  # Skip header if needed
+    df = pd.read_csv(file_path, names=["Location"], skiprows=9076)  # Skip header if needed
     df["Location"] = df["Location"].str.strip().str.replace('"', '')
     print(f"✅ Loaded {len(df)} locations from CSV.")
 except Exception as e:
@@ -74,6 +75,7 @@ def send_prompt(prompt):
 
         print(f"✉️ Sent prompt with {len(prompt.splitlines())} locations.")
 
+
         # Wait for the stop generation button to appear first (means generation started)
         try:
             stop_button = WebDriverWait(driver, 20).until(
@@ -99,6 +101,9 @@ def send_prompt(prompt):
                 # Check and download files
                 check_and_download_files()
 
+                # Copy the code block (if present)
+                copy_code()
+
                 return response
             else:
                 print("⚠️ No response elements found")
@@ -111,6 +116,35 @@ def send_prompt(prompt):
     except Exception as e:
         print(f"⚠️ Error during prompt submission: {e}")
         return None
+
+
+def copy_code():
+    """ Finds the 'copy' button and clicks it to copy code to clipboard """
+    try:
+        # Find the 'copy' button by XPath or CSS selector
+        copy_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/div/div[1]/div[2]/main/div[1]/div/div[2]/div/div/div[2]/article[88]/div/div/div/div/div[1]/div/div/div/pre/div/div[2]/div/div/span[1]/button"))
+        )
+
+        # Click the copy button
+        copy_button.click()
+
+        # Wait for the clipboard content to update
+        time.sleep(1)
+
+        # Get the copied content from the clipboard
+        copied_content = pyperclip.paste()
+
+        # Save the copied content to a file
+        if copied_content:
+            with open("copied_code.txt", "a", encoding="utf-8") as file:
+                file.write(copied_content + "\n")
+            print("📋 Copied code saved to 'copied_code.txt'.")
+        else:
+            print("⚠️ No code copied to clipboard.")
+
+    except Exception as e:
+        print(f"⚠️ Error while copying code: {e}")
 
 
 def check_and_download_files():
@@ -149,9 +183,8 @@ def move_downloaded_files():
             print(f"📂 Moved downloaded file to: {new_location}")
 
 
-def process_csv_in_batches(df, batch_size=50, skip_rows=1129):
-    """ Reads the CSV in batches and skips a certain number of rows from the beginning """
-
+def process_csv_in_batches(df, batch_size=50):
+    """ Reads the CSV in batches and loops indefinitely """
     total_batches = (len(df) + batch_size - 1) // batch_size
 
     while True:
@@ -160,7 +193,8 @@ def process_csv_in_batches(df, batch_size=50, skip_rows=1129):
             print(f"🔄 Processing batch {batch_num}/{total_batches}")
 
             batch = df.iloc[i:i + batch_size]["Location"].tolist()
-            prompt = "Process these locations: " + ", ".join(batch)
+            prompt = "Process these locations and return to me in this format in csv : location, area, lat, long " + ", ".join(batch)
+
 
             response = send_prompt(prompt)
             if response:
@@ -178,8 +212,8 @@ def process_csv_in_batches(df, batch_size=50, skip_rows=1129):
 
 
 try:
-    # Skip the first 100 rows in the CSV (for example)
-    process_csv_in_batches(df, batch_size=50, skip_rows=100)
+    # Start the loop
+    process_csv_in_batches(df, batch_size=50)
 except KeyboardInterrupt:
     print("👋 Script interrupted by user.")
 except Exception as e:

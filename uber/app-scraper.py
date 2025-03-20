@@ -29,7 +29,7 @@ driver = webdriver.Remote("http://127.0.0.1:4723", options=options)
 print("✅ Connected to Running Uber App!")
 
 # Read CSV file
-csv_file = "../Updated_Location_Permutations.csv"  # Ensure the CSV file is in the same directory
+csv_file = "../extra-csv-files/Updated_Location_Permutations.csv"  # Ensure the CSV file is in the same directory
 with open(csv_file, "r") as file:
     reader = csv.reader(file)
     # Skip first 15 rows (since index starts from 0)

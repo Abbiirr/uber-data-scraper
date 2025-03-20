@@ -21,7 +21,7 @@ producer = KafkaProducer(
 WEATHER_API_URL = "https://api.open-meteo.com/v1/forecast"
 
 # File Paths
-LOCATION_FILE = "uber/location_pairs.csv"
+LOCATION_FILE = "../uber/location_pairs.csv"
 DATA_FILE = "weather_data.csv"
 
 # Ensure CSV exists

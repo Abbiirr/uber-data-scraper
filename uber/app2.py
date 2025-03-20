@@ -68,7 +68,7 @@ with open(csv_filename, "w", newline="", encoding="utf-8") as file:
                      "Start Location Name", "End Location Name", "Info", "Image Name"])
 
 # Read and shuffle routes
-with open("../location_pairs_with_dummy_coordinates.csv", "r") as file:
+with open("../extra-csv-files/location_pairs_with_dummy_coordinates.csv", "r") as file:
     routes = list(csv.reader(file))
 
 routes.pop(0)  # Remove header

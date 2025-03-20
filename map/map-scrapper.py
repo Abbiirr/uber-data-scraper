@@ -23,7 +23,7 @@ producer = KafkaProducer(
 
 # Constants
 LOCATION_FILE = "../uber/location_pairs.csv"
-DATA_FILE = "../traffic_data.csv"
+DATA_FILE = "../extra-csv-files/traffic_data.csv"
 SCREENSHOT_FOLDER = "map_ss"
 
 # Ensure necessary folders exist

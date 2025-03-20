@@ -13,7 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
 # Load and clean the CSV
-file_path = "unique_pickup_points.csv"
+file_path = "../extra-csv-files/unique_pickup_points.csv"
 try:
     df = pd.read_csv(file_path, names=["Location"], skiprows=11226)  # Skip header if needed
     df["Location"] = df["Location"].str.strip().str.replace('"', '')

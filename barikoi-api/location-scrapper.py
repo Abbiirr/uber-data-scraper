@@ -7,7 +7,7 @@ import re
 import csv
 
 # Load CSV file containing locations
-file_path = "unique_last_part.csv"
+file_path = "../extra-csv-files/unique_last_part.csv"
 df_locations = pd.read_csv(file_path, dtype=str)
 
 # Ensure column exists and rename it

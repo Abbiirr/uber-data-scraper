@@ -22,7 +22,7 @@ processed_df = pd.read_csv("processed locations/Processed_Locations.csv", header
 processed_df["std_location"] = processed_df["location"].apply(standardize_text)
 
 # Load the unique pickup points CSV (all locations)
-unique_df = pd.read_csv("unique_pickup_points.csv", header=0)
+unique_df = pd.read_csv("extra-csv-files/unique_pickup_points.csv", header=0)
 # Assume the column is named "Location Name" or "location" – adjust if needed.
 if "Location Name" in unique_df.columns:
     unique_df.rename(columns={"Location Name": "location"}, inplace=True)
@@ -40,8 +40,8 @@ matched_df = matched_df.drop(columns=["std_location"])
 remaining_df = remaining_df.drop(columns=["std_location"])
 
 # Save the results to CSV files
-matched_csv_path = "Matched_Locations.csv"
-remaining_csv_path = "Remaining_Locations.csv"
+matched_csv_path = "extra-csv-files/Matched_Locations.csv"
+remaining_csv_path = "extra-csv-files/Remaining_Locations.csv"
 matched_df.to_csv(matched_csv_path, index=False)
 remaining_df.to_csv(remaining_csv_path, index=False)
 

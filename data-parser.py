@@ -15,7 +15,7 @@ producer = KafkaProducer(
 )
 
 # Load data from CSV file
-df = pd.read_csv("R58T33M77TL_uber_estimates.csv")
+df = pd.read_csv("extra-csv-files/R58T33M77TL_uber_estimates.csv")
 
 # Extract date, time, and datetime
 df["date"] = df["Timestamp"].apply(lambda x: x.split()[0])

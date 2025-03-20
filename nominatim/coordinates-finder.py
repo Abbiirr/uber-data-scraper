@@ -5,11 +5,11 @@ import time
 import os
 
 # Load the CSV file with unique locations
-file_path = "map/unique_locations.csv"
+file_path = "../map/unique_locations.csv"
 df_locations = pd.read_csv(file_path)
 
 # Output file
-output_file_path = "locations_with_coordinates.csv"
+output_file_path = "../extra-csv-files/locations_with_coordinates.csv"
 
 # Initialize geolocator
 geolocator = Nominatim(user_agent="location_geocoder")

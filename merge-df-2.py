@@ -23,6 +23,6 @@ for line in data:
 df = pd.DataFrame(locations, columns=["location", "area", "lat", "long"])
 
 # Save to CSV
-output_csv_path = "cleaned_locations-2.csv"
+output_csv_path = "extra-csv-files/cleaned_locations-2.csv"
 df.to_csv(output_csv_path, index=False)
 

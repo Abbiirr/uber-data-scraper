@@ -20,7 +20,7 @@ ward_locations = {
         "Block-T", "Block-J", "Alubdi", "Duaripara", "6-J", "Rupnagar Tinshed", "Easton Housing second phase area"],
     7: ["Mirpur Section-2", "Block-A", "Block-B", "Block-C", "Block-D", "Block-E", "Block-F", "Block-G", "(1)",
         "Block-H", "Block-K", "Block-J Rupargarh Residential Area", "Section-6 Block-A", "Section-2", "Block-C",
-        "Flat 5 Building", "Duaripara", "6-a", "6-b", "6-t", "6-j"]
+        "Flat 5 Building", "Duaripara", "6-a", "6-b", "6-t", "6-j"],
     8: ["Mirpur Section-1", "Wapda Colony", "Block-A", "Block-B", "Block-C", "Block-D", "Block-E", "Block-F", "Block-G",
         "Block-H", "Commercial Plots", "Local House", "House-B", "House-C", "Al Kamal Housing", "Zoo Residential Area",
         "Nawab Bagh", "Goran Chatbari", "BISF Staff Quarters", "Kumirshah Mazar & Box Nagar", "North Bishal",

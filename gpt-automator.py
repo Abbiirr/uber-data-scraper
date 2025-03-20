@@ -15,7 +15,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 # Load and clean the CSV
 file_path = "unique_pickup_points.csv"
 try:
-    df = pd.read_csv(file_path, names=["Location"], skiprows=9076)  # Skip header if needed
+    df = pd.read_csv(file_path, names=["Location"], skiprows=11226)  # Skip header if needed
     df["Location"] = df["Location"].str.strip().str.replace('"', '')
     print(f"✅ Loaded {len(df)} locations from CSV.")
 except Exception as e:

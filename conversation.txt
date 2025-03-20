@@ -1,0 +1,1218 @@
+"Location Name": [
+        "Habiba Bhaban", "Domestic Terminal", "Express House", "RD 1, Block G", "Dr. Nadia Ferdous",
+        "Le Chateau", "Vhai Bon Mansion", "Dutch Bangla Bank ATM", "Bashundhara Masjid", "Rabbani Hotel and Restaurant",
+        "Popular Place", "Airport Road, Kurmitola", "Bakshibazar Govt. Primary School", "Brothers Furniture Ltd",
+        "Luxor", "Dakshin Molla Tag", "Nandan Dewan Park", "450/1, West Kafrul", "Vivek Majesta", "H 695/6, RD 11, Adabor",
+        "Uttar Para, Khilkhet", "Fresco", "Gateway Overseas Education Solution", "Xinxian Restaurant",
+        "H 5, RD 20, Nikunja 2", "Banani Bridge", "Datacrift Limited", "Playpen", "House 44, Road 12B, Banani",
+        "75 Naya Paltan", "Scholar's School and College", "IBN Sina Diagnostic & Consultation Centre", "Herfy",
+        "Plot 330, RD 14, Block A, Bashundhara R/A"
+    ],
+    "Address": [
+        "H 510, Rs 9, Baridhara DOHS", "New Airport Road, Kurmitola, Sector 2", "Block H, Banani",
+        "Mirpur 1", "Residential Area, Dhanmondi", "Gulshan 2, Gulshan", "81, Kalsi Road, Section 11",
+        "Airport Road, Kurmitola, Sector 11, 18, Section 10", "R4, RD 3, Block D, Bashundhara R/A",
+        "1/1 Mirpur Rd, Begum Rokeya Sharani, Section 6", "Shekhertek, Mohammadpur", "New Airport Road, Kurmitola, Sector 2",
+        "Hussaini Dalan Road, Noorbagh, Siddikbazar", "Sector 4, Uttara", "Zafrabad, Mohammadpur",
+        "Bottola, Dakshin Molla Tag, Dakshinkhan", "Sector 4, Uttara", "Mukti Housing, RD 19, Sector 11, Uttara",
+        "Gulshan 2, Gulshan", "Adabor", "Khilkhet", "H 36, North Rd, Dhanmondi", "Road O3, Block B, Niketon",
+        "Sector 1, Uttara", "Nikunja 2", "Gulshan 2, Gulshan", "Dhanmondi", "H 271, RD 14, Block C, Bashundhara R/A",
+        "Block E, Banani, Dhaka", "Mosjid Goli, 52/3, Road 2/1, Section 12", "H 63, 71, RD 7/A, Dhanmondi",
+        "Gareeb E Nawaz Avenue, Sector 13, Uttara", "Block I, Bashundhara R/A", "Bashundhara R/A"
+    ],
+    "Classified Area": [
+        "Baridhara", "Biman Bandar", "Banani", "Mirpur", "Dhanmondi", "Gulshan", "Mirpur",
+        "Biman Bandar", "Bashundhara", "Mirpur", "Mohammadpur", "Biman Bandar", "Siddik Bazar",
+        "Uttara", "Mohammadpur", "Dakshinkhan", "Uttara", "Uttara", "Gulshan", "Adabor",
+        "Khilkhet", "Dhanmondi", "Niketan", "Uttara", "Nikunja", "Gulshan", "Dhanmondi",
+        "Bashundhara", "Banani", "Paltan", "Dhanmondi", "Uttara", "Bashundhara", "Bashundhara"
+    ]
+
+"Location Name": [
+        "SOROK 12", "NR TOURS & TRAVELS", "METRO PROPERTIES LIMITED", "SHOHAH MANZIL",
+        "GULEV JANNAT ARIFABAD MAHILA MADRASA", "CAFE HUNGRY BITES", "H18, MAIN RD, SOUTH BANASHREE PROJECT",
+        "HEAVEN SALON", "DUTCH BANGLA BANK LIMITED", "EMON MAHMUD", "RAJMONI TOWER", "UNIQUE DIAGNOSTIC CENTER",
+        "RELIANCE BUILDING", "SHAHID BUDDIJIBI MUNIR CHOWDHURY ROAD", "METLIFE ALICO (KADER AGENCY)",
+        "SUMON TEA STORE", "H 662, RD 20, BLOCK F", "MUKTA PHARMACY", "DR CHADAT ULLAH NATIONAL SCHOOL",
+        "SHELTECH SIERRA", "KHUSHBU", "APURUPA HAIR STYLE", "KOMIKA NID MAHAL", "H 8 , RD 30, DHANMONDI",
+        "MUTUAL TRUST BANK", "SPICY CHICKEN RESTAURANT", "H 93/1 , RD 8", "PROJONMO BUS STOP",
+        "NASIM ENTERPRISE", "BAILEY VISTA", "AMICUS", "AL AMIN HOUSE", "RATAN KUTIR",
+        "KOHINUR GENERAL STORE", "HOUSE 80, RD 12, SECTOR 10", "SHANTINAGAR BUS STOP", "TAHMINA MANZIL",
+        "DHAKA MEDICAL HOSPITAL 2", "UNIVERSAL MUSIC & TIME BOOKS", "NTRENZ", "KAVAZO", "PROJONMO BUS STOP",
+        "NAWAB HABIBULLAH MODEL SCHOOL", "INSAF BARAKAH KIDNEY & GENERAL HOSPITAL", "AL AMIN HOUSE",
+        "AL HERA JAME MASJID", "RATAN KUTIR"
+    ],
+    "Address": [
+        "Bashundhara R/A", "Sector 4, Uttara", "Road 36, Gulshan 2, Gulshan", "KA 86/A, Rd 12, Baridhara DOHS",
+        "I/10, Arifabad Housing Road, Extended Pallabi, Mirpur", "Satmasjid Rd, Jigatola",
+        "Main Rd, South Banashree Project", "77, Road 17A, Banani", "Shyamoli Road No 2, Shyamoli Complex, Shyamoli",
+        "House 1, Road 7, Block B, Rajmoni Tower, Nobodoy Housing", "Green Road, Dhanmondi",
+        "H 146, Rd 8, Block D, Bashundhara R/A", "Shahid Buddijibi Munir Chowdhury Road, Dhanmondi",
+        "Sector 7, Uttara", "Shyamoli, Mohammadpur", "H 662, Rd 20, Block F, Bashundhara R/A",
+        "Commerce College Road, Section 2", "40/B2, Sylheti Para Road, Maneshwar, Hazaribag",
+        "236, New Elephant Road", "111, Road 4, Block C, Bashundhara R/A", "R K Mission Rd, Gopibag",
+        "423, South Paikpara, Garden View Road, Mukti Housing, Dakshin Paikpara", "H 8, Rd 30, Dhanmondi",
+        "Jahurul Islam Ave, Merul Badda", "H 93/1, Rd 8, Niketon", "Jagannath University, Atish Deoankar Road, Moddho Bashabo, Shahjahanpur",
+        "Sector 12, Uttara", "Siddheswari Ln, Siddheshwari", "House 8, Mymensingh Road, Paribagh, Shahbagh",
+        "H 8, Rd 1, Block A, Banashree", "Mirpur Rd, Lalmatia", "New Airport Road, Kurmitola, Sector 2",
+        "House 80, Rd 12, Sector 10", "Shantibagh, Malibagh", "209/1, 195 Shantibagh Road, Shantibagh, Malibagh",
+        "Zahir Raihan Sarani, Dhaka Medical College", "Doctor Goli, Malibagh", "Mirpur, DOHS Rd, Pallabi",
+        "Road 11, Block H, Banani", "Jagannath University, Atish Deoankar Road, Moddho Bashabo, Shahjahanpur",
+        "Sector 12, Uttara", "Shahjalal Ave, Sector 4, Uttara", "Shahid Tajuddin Ahmed Sarani, Moghbazar",
+        "H 8, Rd 1, Block A, Banashree", "Pilkhana Rd, Azimpur", "H 146/1, New Bailey Rd"
+    ],
+    "Classified Area": [
+        "Bashundhara", "Uttara", "Gulshan", "Baridhara", "Mirpur", "Jigatola", "Banashree",
+        "Banani", "Shyamoli", "Mohammadpur", "Dhanmondi", "Bashundhara", "Dhanmondi",
+        "Uttara", "Mohammadpur", "Bashundhara", "Section 2", "Hazaribag", "Elephant Road",
+        "Bashundhara", "Gopibag", "Mirpur", "Dhanmondi", "Badda", "Niketon", "Bashabo",
+        "Uttara", "Siddheshwari", "Paribagh", "Banashree", "Lalmatia", "Biman Bandar",
+        "Uttara", "Malibagh", "Malibagh", "Dhaka Medical College", "Malibagh",
+        "Mirpur", "Banani", "Bashabo", "Uttara", "Uttara", "Moghbazar", "Banashree",
+        "Azimpur", "Bailey Road"
+    ]
+
+"Location Name": [
+        "SOROK 12", "NR TOURS & TRAVELS", "METRO PROPERTIES LIMITED", "SHOHAH MANZIL",
+        "GULEV JANNAT ARIFABAD MAHILA MADRASA", "CAFE HUNGRY BITES", "H18, MAIN RD, SOUTH BANASHREE PROJECT",
+        "HEAVEN SALON", "DUTCH BANGLA BANK LIMITED", "EMON MAHMUD", "RAJMONI TOWER", "UNIQUE DIAGNOSTIC CENTER",
+        "RELIANCE BUILDING", "SHAHID BUDDIJIBI MUNIR CHOWDHURY ROAD", "METLIFE ALICO (KADER AGENCY)",
+        "SUMON TEA STORE", "H 662, RD 20, BLOCK F", "MUKTA PHARMACY", "DR CHADAT ULLAH NATIONAL SCHOOL",
+        "SHELTECH SIERRA", "KHUSHBU", "APURUPA HAIR STYLE", "KOMIKA NID MAHAL", "H 8 , RD 30, DHANMONDI",
+        "MUTUAL TRUST BANK", "SPICY CHICKEN RESTAURANT", "H 93/1 , RD 8", "PROJONMO BUS STOP",
+        "NASIM ENTERPRISE", "BAILEY VISTA", "AMICUS", "AL AMIN HOUSE", "RATAN KUTIR",
+        "KOHINUR GENERAL STORE", "HOUSE 80, RD 12, SECTOR 10", "SHANTINAGAR BUS STOP", "TAHMINA MANZIL",
+        "DHAKA MEDICAL HOSPITAL 2", "UNIVERSAL MUSIC & TIME BOOKS", "NTRENZ", "KAVAZO", "PROJONMO BUS STOP",
+        "NAWAB HABIBULLAH MODEL SCHOOL", "INSAF BARAKAH KIDNEY & GENERAL HOSPITAL", "AL AMIN HOUSE",
+        "AL HERA JAME MASJID", "RATAN KUTIR"
+    ],
+    "Address": [
+        "Bashundhara R/A", "Sector 4, Uttara", "Road 36, Gulshan 2, Gulshan", "KA 86/A, Rd 12, Baridhara DOHS",
+        "I/10, Arifabad Housing Road, Extended Pallabi, Mirpur", "Satmasjid Rd, Jigatola",
+        "Main Rd, South Banashree Project", "77, Road 17A, Banani", "Shyamoli Road No 2, Shyamoli Complex, Shyamoli",
+        "House 1, Road 7, Block B, Rajmoni Tower, Nobodoy Housing", "Green Road, Dhanmondi",
+        "H 146, Rd 8, Block D, Bashundhara R/A", "Shahid Buddijibi Munir Chowdhury Road, Dhanmondi",
+        "Sector 7, Uttara", "Shyamoli, Mohammadpur", "H 662, Rd 20, Block F, Bashundhara R/A",
+        "Commerce College Road, Section 2", "40/B2, Sylheti Para Road, Maneshwar, Hazaribag",
+        "236, New Elephant Road", "111, Road 4, Block C, Bashundhara R/A", "R K Mission Rd, Gopibag",
+        "423, South Paikpara, Garden View Road, Mukti Housing, Dakshin Paikpara", "H 8, Rd 30, Dhanmondi",
+        "Jahurul Islam Ave, Merul Badda", "H 93/1, Rd 8, Niketon", "Jagannath University, Atish Deoankar Road, Moddho Bashabo, Shahjahanpur",
+        "Sector 12, Uttara", "Siddheswari Ln, Siddheshwari", "House 8, Mymensingh Road, Paribagh, Shahbagh",
+        "H 8, Rd 1, Block A, Banashree", "Mirpur Rd, Lalmatia", "New Airport Road, Kurmitola, Sector 2",
+        "House 80, Rd 12, Sector 10", "Shantibagh, Malibagh", "209/1, 195 Shantibagh Road, Shantibagh, Malibagh",
+        "Zahir Raihan Sarani, Dhaka Medical College", "Doctor Goli, Malibagh", "Mirpur, DOHS Rd, Pallabi",
+        "Road 11, Block H, Banani", "Jagannath University, Atish Deoankar Road, Moddho Bashabo, Shahjahanpur",
+        "Sector 12, Uttara", "Shahjalal Ave, Sector 4, Uttara", "Shahid Tajuddin Ahmed Sarani, Moghbazar",
+        "H 8, Rd 1, Block A, Banashree", "Pilkhana Rd, Azimpur", "H 146/1, New Bailey Rd"
+    ],
+    "Classified Area": [
+        "Bashundhara", "Uttara", "Gulshan", "Baridhara", "Mirpur", "Jigatola", "Banashree",
+        "Banani", "Shyamoli", "Mohammadpur", "Dhanmondi", "Bashundhara", "Dhanmondi",
+        "Uttara", "Mohammadpur", "Bashundhara", "Section 2", "Hazaribag", "Elephant Road",
+        "Bashundhara", "Gopibag", "Mirpur", "Dhanmondi", "Badda", "Niketon", "Bashabo",
+        "Uttara", "Siddheshwari", "Paribagh", "Banashree", "Lalmatia", "Biman Bandar",
+        "Uttara", "Malibagh", "Malibagh", "Dhaka Medical College", "Malibagh",
+        "Mirpur", "Banani", "Bashabo", "Uttara", "Uttara", "Moghbazar", "Banashree",
+        "Azimpur", "Bailey Road"
+    ]
+
+
+"Location Name": [
+        "SHOUVA", "HOUSE A/9, AL KAMAL HOUSING", "IBN SINA MEDICAL COLLEGE AND HOSPITAL",
+        "AHN TOWER", "SHAMEEM REFRIGERATION WORKS LTD", "PWD JAME MASJID", "GOLAP VILLA 1",
+        "ARONG ER GOLI", "HIGH PARK RESIDENCE", "J AND J ENTERPRISE", "MOHAMMADIA R/A MAIN RD",
+        "HOUSE 14, ROAD 6, SECTOR 10", "WEAT MERUL JAME MASJID", "FERNS WOOD", "LAKE CITY CONCORD",
+        "HOUSE 430, ROAD 17", "GALAXY MEDICINE CORNEE", "AYESHA VILLA", "SHOHAG TEA STORE",
+        "BEIRUT 99", "SAMIR ELECTRONIC", "CK MARITIME LTD", "SALIM UDDIN MARKET ROAD",
+        "ORIENTA MULTI PURPAS CO OPERATIVE", "CITY BANK ATM", "OGSB HOSPITAL", "SATTAR VABAN",
+        "VAI VAI CYCLE & HARDWARE", "AARONG", "MNA BARRISTERS & ADVOCATES", "SHAHJADPUR EAST SOUTH PARA RD",
+        "HOUSE 37, ROAD 5", "UNITED SEED DHAKA", "GREEN VIEW", "RANGS MALANCHA", "H 231, SATARKUL RD",
+        "JANATA SOROK", "I CARE COMPUTER SYSTEM", "H 366/6, RD 6", "NEW JANANI ENGINEERING WORKSHOP",
+        "G. PRASANTY", "AIRPORT ROAD", "SOHRAWARDY AVENUE", "27/26, BLOCK D", "POPULAR MEDICAL COLLEGE OUTDOOR",
+        "JAMIYA DERACHATUL MADRASA", "BANK ALFALAH LIMITED MIRPUR"
+    ],
+    "Address": [
+        "KA 22/B, Shahid Fazlul Haque Rd, Nadda", "Zoo Road, Mirpur, Dhaka",
+        "Kallyanpur", "Bir Uttam CR Datta Rd, Hatirpool", "Gulshan 1, Gulshan",
+        "Rajarbag", "37, Road 10A, Dhanmondi R/A", "Wireless, Moghbazar",
+        "H 99, Viqarunnisa Rd, Siddheswari", "House 144, Khilbarirtek Main Road, Vatara, Dhaka 1212",
+        "Prominent Housing, Mohammadpur", "Sector 10, Uttara", "West Merul Badda Rd, Merul Badda",
+        "41, Raja Bazar Indira Road, Dhanmondi", "Khilkhet", "Block A, Bashundhara R/A",
+        "1/1, Section 2", "H 680, Rd 12A, Adabor", "Sector 8, Uttara", "235, Road 13E, Banani",
+        "445, 445/1, Greenway Road, Wireless, Moghbazar", "Plot 836, Road 12, Avenue 3, Mirpur DOHS",
+        "52/2, Salim Uddin Market Road, Senpara Parbata, Ahmed Nagar", "Foot Overbridge, Nijhum Residential Area, Hazaribag",
+        "Bir Uttam Mir Shawkat Sarak, Tejgaon", "Block C, Mirpur 13", "H 32/3, Rd 10, Janata Housing, Mohammadpur",
+        "Rd 8, Shekhertek, Mohammadpur", "Lalmatia", "Suite 3B, H 7, Rd 33, Gulshan 1",
+        "North Badda", "Sector 10, Uttara", "Dhaka Aricha Highway, Aftabnagar",
+        "385/4/A/B, Free School Street, Dhanmondi", "West, Dhanmondi", "Bawaila Para, Badda",
+        "H 620, Rd 19, Block F, Bashundhara R/A", "House 41/2/E/3, Hari Charan Ray Road, Faridabad, Gendaria",
+        "H 366/6, Rd 6, Baridhara DOHS", "Nabi Nagar Housing, Mohammadpur",
+        "10, Road 3, Mukti Housing, Kallyanpur", "New Airport Road, Kurmitola, Sector 2",
+        "Baridhara, Gulshan", "Sher Shah Suri Road, Mohammadpur", "Residential Area, Dhanmondi",
+        "H54, Central Rd, Dhanmondi", "House 1, Kalsi Road, Block D, Section 11, Mirpur, Dhaka 1216"
+    ],
+    "Classified Area": [
+        "Nadda", "Mirpur", "Kallyanpur", "Hatirpool", "Gulshan", "Rajarbagh", "Dhanmondi",
+        "Moghbazar", "Siddheswari", "Vatara", "Mohammadpur", "Uttara", "Badda", "Dhanmondi",
+        "Khilkhet", "Bashundhara", "Section 2", "Adabor", "Uttara", "Banani", "Moghbazar",
+        "Mirpur DOHS", "Senpara Parbata", "Hazaribag", "Tejgaon", "Mirpur", "Mohammadpur",
+        "Mohammadpur", "Lalmatia", "Gulshan", "Badda", "Uttara", "Aftabnagar", "Dhanmondi",
+        "Dhanmondi", "Badda", "Bashundhara", "Gendaria", "Baridhara DOHS", "Mohammadpur",
+        "Kallyanpur", "Biman Bandar", "Baridhara", "Mohammadpur", "Dhanmondi", "Dhanmondi",
+        "Mirpur"
+    ]
+
+
+"Location Name": [
+        "MEDICARE DRUG HOUSE", "UNITED HOSPITAL", "H D 6, OUTER CIRCULAR RD", "BANGLADESH FILM DEVELOPMENT CORPORATION (FDC)",
+        "AIRPORT MASJID", "KAWLA BUS STOP", "BANGLADESH AQUA ZONE", "KANU LAL MISTANNO BHANDAR", "NASRIN VILLA",
+        "NILIMA LADIES TAILORS", "HOMEOPATHIC FOUNDATION HOSPITAL & RESEARCH CENTER", "H 26/11, TAJMAHAL RD",
+        "SABBIR TEA STORE", "RONY TELECOM", "IFIC BANK LIMITED (RAYER BAZAR SUB-BRANCH)", "HSBC BANK ATM",
+        "SALMAN, POLICE BOX", "FERDAUSI FASHION", "APOLLO HOSPITAL BASEMENT MASJID", "H 49, RD 12",
+        "HOUSE 66, ROAD 2", "NATIONAL HEART FOUNDATION", "H 42, RD 12", "HOLY FAMILY RED CRESCENT MEDICAL COLLEGE HOSPITAL",
+        "DEWAN CO", "H 8/A, RD 12", "BLOCK I", "SHELTECH SHAFIQUE'S TOWER", "SHIKDER BARI", "FVL RAMISA",
+        "SOFIA GARDEN", "SARA PIZZA (BANASREE-E)", "JAPAN GARDEN CITY", "NAMIRA KITCHEN", "BONAYON.COM",
+        "APEX", "BISMILLAH", "SUB LOVER'S", "BANGLADESH SPECIALIZED HOSPITAL", "H 22, RD 7",
+        "CHEESY SLICE", "19, ROAD 120", "MITHAI MALIBAG COMMUNITY CENTER", "P0LIC CONVENTION HALL",
+        "ROAD 96", "RIJIYA BHAVAN", "REEN HOMES"
+    ],
+    "Address": [
+        "433/A, South Paikpara, Road 14, Block D, Mukti Housing, Dokkhon Paikpara",
+        "RD 72, Gulshan 2", "Outer Circular Rd, AGB Colony, Motijheel",
+        "Kawran Bazar FDC Road, Wireless, Niketan", "New Airport Rd", "New Airport Rd",
+        "Kataban Road, Nijhum Residential Area, Hazaribagh", "H 105, Mugdapara, Sabujbagh",
+        "H 6, Masjider Goli, Adabor", "H 34, RD 4, Dhanmondi", "Kazipara, Mirpur 10",
+        "Mohammadpur", "Bosila, Mohammadpur", "Mosque Road 2, Korail, Mohakhali",
+        "Rayer Bazar, Mohammadpur", "West Dhanmondi", "Begum Rokeya Sharani, West Kafrul, Purba Kazipara",
+        "Sector 9, Uttara", "H 81, STS Ave, Block E, Bashundhara R/A", "Nikunja 2",
+        "House 66, Road 2, Block A, Niketan, Gulshan", "Tolarbag 1st Lane, Dhaka",
+        "PC Culture Housing, Adabor", "H 1, Eskaton Garden Rd, Old Eskaton", "109, DIT Road, Malibagh Rail Gate, Malibagh",
+        "Mohammedi Housing Society, Mohammadpur", "Bashundhara R/A", "28, Road 15A, Dhanmondi R/A",
+        "Eastern Housing, Golden Street, Shyamoli, Mohammadpur", "House 6/A, Road 7, Mohammadpur Housing Limited, Mohammadpur",
+        "Block F, Road 21, Bashundhara R/A", "Block E, H 381/2, Banashree", "Building 19, Flat 701, Mohammadpur",
+        "H 1102, Mirpur Rd 14, Kachukhet", "Mirpur Cantonment", "Road 27 (New 16), Dhanmondi R/A",
+        "Road 1, Block D, Bashundhara R/A", "Oink City, Gulshan-2", "Mirpur Rd, Shyamoli",
+        "Kaderabad Housing, Mohammadpur", "Mirpur Cantonment", "Banani, Gulshan",
+        "Chowdhuripara, Malibagh", "Old Elephant Road, Wireless, Paltan", "Gulshan 2, Gulshan",
+        "H 2/GA, Habibullah Rd, Shahbagh", "H 10/7, Iqbal Rd, Mohammadpur"
+    ],
+    "Classified Area": [
+        "Mirpur", "Gulshan", "Motijheel", "Kawran Bazar", "Biman Bandar", "Biman Bandar",
+        "Hazaribagh", "Sabujbagh", "Adabor", "Dhanmondi", "Mirpur", "Mohammadpur",
+        "Mohammadpur", "Mohakhali", "Mohammadpur", "Dhanmondi", "Kafrul", "Uttara",
+        "Bashundhara", "Nikunja", "Gulshan", "Tolarbagh", "Adabor", "Eskaton",
+        "Malibagh", "Mohammadpur", "Bashundhara", "Dhanmondi", "Shyamoli", "Mohammadpur",
+        "Bashundhara", "Banashree", "Mohammadpur", "Mirpur", "Mirpur Cantonment",
+        "Dhanmondi", "Bashundhara", "Gulshan", "Shyamoli", "Mohammadpur", "Mirpur",
+        "Banani", "Malibagh", "Paltan", "Gulshan", "Shahbagh", "Mohammadpur"
+    ]
+
+
+"Location Name": [
+        "ANOSHUA", "PACIFIC ASSOCIATES LTD", "CP FIVE STAR", "160, HATIRPOOL", "82/12, SOUTH BARONTEK",
+        "YOUNG FOREVER", "DHAKA COMMERCE COLLEGE", "ASIA LING APPARELS (BD) LTD", "HUIGH PARK RESIDENCE",
+        "SUNBEAM CAFE", "ABDUL GHANI LODGE", "AZIMPUR CHAPRA MASJID", "CPM (CENTER FOR PHYSIOTHERAPY AND MOBILITY)",
+        "HOUSE 66, ROAD 2", "ROAD 131", "SHIKDER BARI", "BLOCK I", "DEWAN CO", "SABAAH PHARMA", "NILAMBAR CORPORATION",
+        "RD 7, BLOCK E", "RD 26, BLOCK L", "PARIBAGH GARDEN TOWER", "YAGISHITA PALACE", "RD 15, BLOCK J",
+        "SOUTH BADDA ROAD", "CLIFFORD NAFI", "MIRPUR MISSION", "REKHA SHOES", "SHEIKH RUSSEL NATIONAL GASTROLIVER INSTITUTE",
+        "ZAMAN TOWER", "AVENUE 2, ROAD 12", "TOPIA SHARUBA", "SOFIA GARDEN", "TASHPIA KAZI TOWER",
+        "DR. SINTHIA CONSULTANT", "ROAD NO. 22", "AN ARK NEPAL HOUSE", "H 37/L, RD 3", "HOMELAND MAHABUB PALACE",
+        "EXCLUSIVE APARTMENT", "UTTARA ENGINEERING COLLEGE", "RAHMAN CHEMBER", "UTTARA NORTH METRO RAIL STATION",
+        "EMON", "THE MAJESTIC", "FARUK GENERAL STORE"
+    ],
+    "Address": [
+        "H 59, RD 25, Banani", "Road 114, Gulshan Ave, Gulshan 2", "H 99/2, Azimpur Rd, Azimpur",
+        "Dhanmondi R/A, Paltan", "South Barontek, Dhaka 1206", "Road 06, Banani DOHS, Banani",
+        "Commerce College Road, Section 2", "Sector 7, Uttara", "H 99, Viqarunnisa Rd, Siddheswari",
+        "38A, Road 103, Gulshan 2, Gulshan", "23/P, Road No. 2, Block D, Bashundhara R/A",
+        "Azimpur Chapra Masjid Rd, Azimpur", "Malibagh Rail Gate, Malibagh", "Block A, Niketan, Gulshan",
+        "Dakkhin Badda, Gulshan", "Eastern Housing, Golden Street, Shyamoli, Mohammadpur",
+        "Bashundhara R/A", "109, DIT Road, Malibagh Rail Gate, Malibagh", "Sector 3, Uttara",
+        "Block F, Banani", "Block E, Mirpur 1", "Block L, Bashundhara R/A", "Paribagh", "Road 7, Section 2, Uttor Badda",
+        "Block J, Bashundhara R/A", "Dakkhin Badda, Gulshan", "Kaderabad Housing, Mohammadpur",
+        "Shorok 2, Section 2, Mirpur", "Elephant Rd", "TB Gate Road, Mohakhali", "H 37.2, Culvert Rd, Fakirapool",
+        "Road 12, H 875, Mirpur", "D Block 9 No Road, Block D, Bashundhara R/A", "Block F, Road 21, Bashundhara R/A",
+        "Road 9, Block M, Banasree", "Gulshan 2, Gulshan", "Bashundhara R/A", "House 11, Lane 11/1, Block B, Section 10, Mirpur",
+        "H 37/L, RD 3, Block D, Bashundhara R/A", "House 295/A, Sayem Sobhan Anvir Road, Block C, Bashundhara R/A",
+        "384, Al Haj Abdus Sobhas Road, Block B, Bashundhara R/A", "Paper Mill Road, Abdullahpur, Uttara",
+        "Toyenbee Road, Banglabhaban Area, Hatkhola", "Uttara", "H 28/A, Rd 1, Mohammadi Housing Ltd, Mohammadpur",
+        "Adhunik Hospital Road, Section 12", "H 8/15, Rd 1, Block C, Lalmatia"
+    ],
+    "Classified Area": [
+        "Banani", "Gulshan", "Azimpur", "Paltan", "South Barontek", "Banani", "Section 2",
+        "Uttara", "Siddheswari", "Gulshan", "Bashundhara", "Azimpur", "Malibagh",
+        "Gulshan", "Gulshan", "Shyamoli", "Bashundhara", "Malibagh", "Uttara", "Banani",
+        "Mirpur", "Bashundhara", "Paribagh", "Uttor Badda", "Bashundhara", "Gulshan",
+        "Mohammadpur", "Mirpur", "Elephant Road", "Mohakhali", "Fakirapool", "Mirpur",
+        "Bashundhara", "Bashundhara", "Banasree", "Gulshan", "Bashundhara", "Mirpur",
+        "Bashundhara", "Bashundhara", "Bashundhara", "Uttara", "Hatkhola", "Uttara",
+        "Mohammadpur", "Section 12", "Lalmatia"
+    ]
+
+
+"Location Name": [
+        "LAKE SIDE", "RAMNA PS", "PHARMACY", "H 848, RD 19", "BASHUNDHARA PURBACHAL LINK RD",
+        "KALACHANDPUR MAIN ROAD", "GLORIA JEANS COFFEE", "ROAD 20, KOTBARI BAZAAR", "HONGKONG SHANGHAI TOWER",
+        "SHANGHAI CHINESE CAFE", "469, ROAD NO. 7", "ABDUS SATTAR", "OBSTERICAL & GYNAECOLOGICAL SOCIETY HOSPITAL",
+        "BISHMILLAH", "MALIHA APARTMENTS", "PRIYO NEER", "PARTY PIZZA HOUSE", "RIZ PARK", "THE PRESTIGE MAGAZINE",
+        "NORTH END COFFEE ROASTERS", "HOUSE 28, ROAD 8", "SETARA BEGUM", "DOMESTIC TERMINAL", "RD 28, BLOCK D",
+        "3/1 KALLYANPUR PRODHAN SARAK", "334, I BLOCK", "AAA FASHION", "LA GUSTOSA KITCHEN", "GODULE",
+        "TULIP MOONLIT", "AZRAT SHAH JALAL INTERNATIONAL AIRPORT", "MINTU GENERAL STORE", "KFC, BAILY ROAD",
+        "MOMTAZ BEGUM", "ARSALAM HOTEL AND RESTAURANT", "SORAI JAME MASJID ROAD", "RAILWAY STAFF ACCOMMODATION",
+        "ROAD 3, BLOCK D", "10, ROAD 1, SECTION 7", "693, ROAD NO. 1", "DURI ANGUL 2ND LANE",
+        "SHAHID TAZUDDIN AHAMED AVENUE", "176/5/1, WEST KAFRUL", "24, GREENWAY ROAD", "HOUSE 17, BLOCK A",
+        "ISMAIL PHARMACY", "DUTCH BANGLA BANK LTD", "KALOM TOWER", "H 490, SHAHID BAKI SARAK"
+    ],
+    "Address": [
+        "31, Road 28 (New 15), Dhanmondi R/A", "Sahid Capten Munsur Ali Avenue, Wireless, Paltan",
+        "RD 9, Mirpur DOHS", "Block G, Bashundhara R/A", "Block J, Bashundhara R/A",
+        "Baridhara, Gulshan", "Road 71, Gulshan 2, Gulshan", "Sector 7", "H108, RD 11, Banani",
+        "RD 11, Banani", "Bashundhara R/A", "Section 2", "OGSB Hospital, Section 13, Mirpur",
+        "Block D, Bashundhara R/A", "Plot 24, Senpara Parbata, Mirpur 10", "H 13/A, Eskaton Garden Rd, Old Eskaton",
+        "Mohammadpur, Adabor", "Adabor, Mohammadpur", "House 47, Road 11, Block H, Banani",
+        "Evercare Hospital, Block E, Bashundhara R/A", "Sector 12, Uttara", "H 104, RD 7, Mohammadi Housing Society, Mohammadpur",
+        "New Airport Road, Kurmitola, Sector 2", "Mirpur 10", "Notun Bazar, Mukti Housing, Moddho Paikpara",
+        "Bashundhara R/A", "Main Road, Section 6", "Residential Area, Dhanmondi", "102, Sarak 14, Khilkhet, Bashundhara R/A",
+        "H 333, RD 18, Banani", "Dhaka Mymensingh Highway, Kurmitola", "North Perebug, Mukti Housing, Moddho Paikpara",
+        "Baily Road, Natok Sarani, Gold Hunt Shopping Complex", "167/2/B, Road 4, Janata Housing Senpara Parbata",
+        "14, Road 7, Dhanmondi", "Jatrabari", "Dhaka Mymensingh Highway, Kurmitola, Sector 1",
+        "Bashundhara R/A", "Bashundhara R/A", "Bashundhara R/A", "Nababganj, Hazaribagh",
+        "Wireless, Niketon", "Taltola, West Kafrul", "Wireless, Moghbazar", "Wazuddin Road",
+        "Surtaranga Rd, West Arichpur", "Kalsi Rd, Mirpur 11", "H,6,RD 2, Banasree, Rampura",
+        "Taltola, Khilgaon"
+    ],
+    "Classified Area": [
+        "Dhanmondi", "Paltan", "Mirpur DOHS", "Bashundhara", "Bashundhara", "Gulshan",
+        "Gulshan", "Sector 7", "Banani", "Banani", "Bashundhara", "Section 2", "Mirpur",
+        "Bashundhara", "Mirpur", "Eskaton", "Adabor", "Mohammadpur", "Banani", "Bashundhara",
+        "Uttara", "Mohammadpur", "Biman Bandar", "Mirpur", "Moddho Paikpara", "Bashundhara",
+        "Mirpur", "Dhanmondi", "Bashundhara", "Banani", "Kurmitola", "Moddho Paikpara",
+        "Baily Road", "Senpara Parbata", "Dhanmondi", "Jatrabari", "Kurmitola", "Bashundhara",
+        "Bashundhara", "Bashundhara", "Hazaribagh", "Niketon", "West Kafrul", "Moghbazar",
+        "Wazuddin Road", "West Arichpur", "Mirpur", "Banasree", "Khilgaon"
+    ]
+
+
+"Location Name": [
+        "H 73, GREEN ROAD", "JAMUNA BANK TOWER", "SHANTA VIRTUE", "TAKEOUT BANANI",
+        "ASSORT NAMEER", "NORTH SOUTH UNIVERSITY", "JAPAN GARDEN CITY", "LE MERIDIEN DHAKA",
+        "SUMI TOWER", "UNITED COMMERCIAL BANK (UCB)", "REVOLUTION ON BIKES", "HAZARIBAGH PARK",
+        "SARKAR MEDICAL HALL", "EXCEL ACADEMY", "1425/A, SOUTH PIRER BAGH", "MEET 2 EAT",
+        "NAWABI VOJ", "LOGIN TECHNOLOGIES BD LTD", "UNITED COMMERCIAL BANK LIMITED ATM",
+        "INDIAN EXPRESS", "RAFIQUL HAQUE & ASSOCIATES", "RD 7, SECTOR 1", "HOUSE 22, ROAD 9/B",
+        "3/10, LALMATIA BLOCK E", "BATA MIRPUR CITY", "FARAZY PHYSIOTHERAPY & LASER UNIT",
+        "NARAIL AIR TRAVELS AND TOURS", "H 70/2, NIJHUM RESIDENTIAL RD", "BAILEY ROAD OFFICERS COLONY",
+        "LIVING SHYAMOLIMA", "PANTHA PATH", "KALLYANPUR BUS STAND", "DELTA HEALTH CARE MIRPUR LTD",
+        "35, BLOCK D, SHER SHAH SURI ROAD", "IEB TENNIS COURTS", "UNITED HOSPITAL", "CMH BUS STOP",
+        "AMERICAN INTERNATIONAL UNIVERSITY BANGLADESH", "MAYER DOA CHOTPOTI AND FUSKA",
+        "HORIZONTAL 2, ROAD 08", "SAYED NAZRUL ISLAM NATIONAL SWIMMING COMPLEX",
+        "MERAJ NAGAR", "SOUTHERN GARMENTS LTD", "HOUSE 189, ROAD 6, BLOCK 6"
+    ],
+    "Address": [
+        "Green Road, Dhaka", "Block CWS (C), A K Khondkar Road, Gulshan 1", "Sector 4, Uttara",
+        "Kemal Ataturk Avenue, Banani", "Road No. 2, Block D, Bashundhara R/A", "Bashundhara R/A",
+        "Ring Road, Mohammadpur", "H 79/A, Commercial Area, New Airport Rd, Khilkhet",
+        "Zoo Road, Section 1", "Namapara Road, Bottola, Khilkhet", "RD 10, Mirpur DOHS",
+        "Hazaribagh", "Ibrahimpur Road, North Kafrul, Purba Kazipara", "11, Road 7, Dhanmondi",
+        "Mukti Housing, Dokkhon Pirerbagh", "NSU Road, Bashundhara R/A", "AQP Shopping Mall, New Baily Road",
+        "Road 7, Gulshan 1", "Shyamoli, Mohammadpur", "57, Shiddheswari Road", "Road 13, Banani",
+        "Sector 1, Uttara", "Sector 5, Uttara", "Lalmatia", "Section 6, Mirpur",
+        "Sector 7, Uttara", "Sector 15, Uttara", "Nijhum Residential Rd, Nijhum R/A, Hazaribagh",
+        "Sahid Capten Mansur Ali Avenue, Wireless, Paltan", "House 33, Road 3, Shyamoli, Dhaka",
+        "Dhanmondi", "Kallyanpur Main Road, Mukti Housing, Kallyanpur", "Section 7, Mirpur",
+        "Sher Shah Suri Road, Mohammadpur", "Fakirapool, Paltan", "Road 71, Gulshan 2, Gulshan",
+        "Kurmitola Road, Uttor Kafrul, Purba Kazipara", "408/1, Kuratoli Road, Kuril, Dhaka 1229",
+        "Sector 5, Uttara", "Priyanka City, Uttara", "Main Rd, Mirpur 10", "Meraj Nagar, Dhaka",
+        "Zirabo to Bishmail Rd, Rustampur, Ashulia 1342", "Block J, Bashundhara R/A"
+    ],
+    "Classified Area": [
+        "Green Road", "Gulshan", "Uttara", "Banani", "Bashundhara", "Bashundhara", "Mohammadpur",
+        "Khilkhet", "Mirpur", "Khilkhet", "Mirpur", "Hazaribagh", "Kazipara", "Dhanmondi",
+        "Pirerbagh", "Bashundhara", "New Baily Road", "Gulshan", "Mohammadpur", "Shiddheswari",
+        "Banani", "Uttara", "Uttara", "Lalmatia", "Mirpur", "Uttara", "Uttara", "Hazaribagh",
+        "Paltan", "Shyamoli", "Dhanmondi", "Kallyanpur", "Mirpur", "Mohammadpur", "Paltan",
+        "Gulshan", "Kurmitola", "Kuril", "Uttara", "Uttara", "Mirpur", "Meraj Nagar", "Ashulia",
+        "Bashundhara"
+    ]
+
+
+"Location Name": [
+        "RAYERBAG BUS STOP", "IQRA MODEL SCHOOL AND COLLEGE", "INTERNATIONAL MEDICAL COLLEGE HOSPITAL",
+        "LABAID CAFE", "HAFIZUR TELECOM GRAMEEN PHONE EXPRESS", "PROPERTY TYRE", "SQUARE HOSPITAL LTD",
+        "EXIM BANK LIMITED", "HOTEL DHAKA GOLDEN INN", "GREEN LIFE MEDICAL COLLEGE & HOSPITAL PHARMACY",
+        "POPULAR HOSPITAL", "CHITROGOLPO", "RAFIQUL HAQUE & ASSOCIATES", "H 53, STAMFORD UNIVERSITY RD",
+        "INDIAN EXPRESS", "ATISH DEPANKAR ROAD", "BASIS", "HAZRAT SHAHJALAL INTERNATIONAL AIRPORT",
+        "NAWABI VOJ", "AHSANIA MISSION CANCER & GENERAL HOSPITAL", "SARKAR MEDICAL HALL",
+        "LAB AID SPECIALIZED HOSPITAL", "UNITED COMMERCIAL BANK(UCB)", "MUZAHID NAGAR RD",
+        "LE MERIDIEN DHAKA", "LUTHFA PLACE", "RD 117", "327, ROAD NO 14", "GRAND DHAKA HOTEL",
+        "ASSORT NAMEER"
+    ],
+    "Address": [
+        "Dhaka Chattogram Highway", "Zia Sarani Road, Rayerbag, Sonir Akhra",
+        "Medical College Rd, Rustampur", "Green Road, Dhanmondi", "Dhaka Tangail Highway, Mouchak",
+        "H 38, Lake Circus, Kalabagan", "Panthapath", "Dania Road, Noyapara, Shanir Akhra",
+        "Block K, Banani", "H 32, Crescent Rd, Kalabagan", "Dhanmondi Road 2, Dhanmondi R/A",
+        "Mirpur DOHS", "Malibagh Rail Gate, Malibagh", "Siddheshwari", "57 Siddheshwari Road",
+        "Moddho Bashabo, Shahjahanpur", "Kazi Nazrul Islam Ave, Kawran Bazar",
+        "Terminal 2, Airport Road, New Airport Road, Kurmitola, Sector 2", "AQP Shopping Mall, New Baily Road",
+        "Dhaka Ashulia Highway, Sector 10, Uttara", "Ibrahimpur Road, Uttar Kafrul, Purba Kazipara",
+        "House 6, Road 4, Dhanmondi", "Namapara Road, Bottola, Khilkhet", "Newtown R/A, Jatrabari",
+        "H 79/A Commercial Area, New Airport Rd, Khilkhet", "H 27/CHA, East Rajabazar, Farmgate",
+        "Gulshan 1", "Block A, Bashundhara R/A", "Dhaka Mymensingh Highway, Sector 9, Uttara",
+        "Road No 2, Block D, Bashundhara R/A"
+    ],
+    "Classified Area": [
+        "Rayerbagh", "Rayerbagh", "Rustampur", "Dhanmondi", "Mouchak", "Kalabagan", "Panthapath",
+        "Shanir Akhra", "Banani", "Kalabagan", "Dhanmondi", "Mirpur DOHS", "Malibagh", "Siddheshwari",
+        "Siddheshwari", "Bashabo", "Kawran Bazar", "Biman Bandar", "New Baily Road", "Uttara",
+        "Kazipara", "Dhanmondi", "Khilkhet", "Jatrabari", "Khilkhet", "Farmgate", "Gulshan",
+        "Bashundhara", "Uttara", "Bashundhara"
+    ]
+
+
+
+"Location Name": [
+        "PROPERTY TYRE", "NORTH SOUTH UNIVERSITY", "ATTIN ARABIAN RESTAURANT", "HABIB HUMAYRA DOA",
+        "GRAND DHAKA HOTEL", "UNITED HOSPITAL", "SOBHANBAG FOOT OVERBRIDGE", "CALIFORNIA FRIED CHICKEN & PASTRY SHOP (CFC)",
+        "BAY'S LAKEWOOD", "AMERICAN INTERNATIONAL UNIVERSITY BANGLADESH", "EASTERN PLAZA COMMERCIAL",
+        "JAMUNA BANK TOWER", "STAR HOTEL AND KABAB", "SOLITAIRE", "INSAF HOSPITAL", "HOTEL THE PROGOTI",
+        "NILIMA 164", "MISSION FARHAN", "HAZRAT SHAH JALAL INTERNATIONAL AIRPORT", "CONCORD BITHI VILLA",
+        "HONEY MUSTARD", "DIABARI HOTEL & RESTAURANT", "SAAD KABAB GHAR", "ROYAL EMBASSY OF THAILAND",
+        "MARUF TRADERS", "CHAYANIR", "HASNA HENA", "JONONI FURNITURE SECTOR", "THE ENT AND HEAD NECK CANCER HOSPITAL",
+        "JAKIR SWEETS", "BAZAR SADAI DEPARTMENTAL STORE", "G.H.P ELECTRONICS", "HAZRAT SHAHJALAL INTERNATIONAL AIRPORT",
+        "AMITA MINI MART", "206/1, NORTH SHAJAHANPUR ROAD", "PIRERBAG JHILPAR JAME MASJID", "STATE UNIVERSITY OF BANGLADESH",
+        "GLOBAL ISLAMI BANK ATM", "ROAD 22, MOHAKHALI DOHS", "CIVIL AVIATION C TYPE QUARTER", "ALLIANCE HOSPITAL LIMITED",
+        "H 52/3, NEW EASKATON RD", "KHAO SAN", "INSAF BARAKAH KIDNEY & GENERAL HOSPITAL",
+        "KRISHIBID INSTITUTION BANGLADESH CONVENTION HALL", "DUTCH BANGLA BANK LTD ATM"
+    ],
+    "Address": [
+        "H 38, Lake Circus, Kalabagan", "Bashundhara R/A", "H 9, RD 22, Block K, Banani",
+        "H 310, RD 3, Adabor", "Dhaka Mymensingh Highway, Sector 9, Uttara", "RD 71, Gulshan 2",
+        "Mirpur Rd, Sobhanbag, Dhanmondi", "Section 1, Mirpur", "New Airport Flower Garden, New Airport Rd",
+        "Kuratoli Road, Kuril, Dhaka 1229", "Free School Street, Sonargaon Road, Hatirpool",
+        "Block CWS(C), A K Khondkar Road, Gulshan 1", "Elephant Rd", "House 55, Road 28, Gulshan 1",
+        "Rathkhola Sadar Hospital Rd", "H 33 37, School Rd, Mohakhali", "Road 4, Block D, Bashundhara R/A",
+        "428, Road 11, Bashundhara R/A", "Terminal 1, Airport Road, New Airport Road, Kurmitola, Sector 2",
+        "House No 42B, Road No 41, Gulshan 2", "Jagannathpur, Bashundhara Road", "Dia Bari Gabtoli Road, Gabtoli",
+        "Ceramics Rd, 1340", "Shahid Coloner Gulzar Uddin Rd, Baridhara", "H 25/1, BCC Rd, Banagram",
+        "Section 13, Mirpur", "48, Girls School Road, Dhanmondi", "Sector 7, Uttara",
+        "North Shyamoli", "H 60, Johnson Rd, Ray School Rd, Sabujbag", "Dewanbag",
+        "Dhaka Chittagong Highway, West Jatrabari", "Terminal 1, Airport Road, New Airport Road, Kurmitola, Sector 2",
+        "Jashimuddin Ave, Sector 01, Uttara", "Uttor Shahjahanpur Railway Banijjik Alaka, Shahjahanpur",
+        "Mukti Housing, Dokkhon Paikpara", "H 138, Mirpur Rd, Kalabagan", "Shyamoli, Mohammadpur",
+        "Mohakhali DOHS", "New Airport Road", "Shyamoli, Mohammadpur", "New Eskaton Rd, New Eskaton",
+        "Residential Area, Dhanmondi", "Shahid Tazuddin Ahmed Ave, Mogbazar",
+        "Khamarbari Rd, Farmgate", "Station Rd, Kamalapur"
+    ],
+    "Classified Area": [
+        "Kalabagan", "Bashundhara", "Banani", "Adabor", "Uttara", "Gulshan", "Dhanmondi", "Mirpur",
+        "Biman Bandar", "Kuril", "Hatirpool", "Gulshan", "Elephant Road", "Gulshan", "Rathkhola",
+        "Mohakhali", "Bashundhara", "Bashundhara", "Biman Bandar", "Gulshan", "Bashundhara",
+        "Gabtoli", "Mirpur", "Baridhara", "Banagram", "Mirpur", "Dhanmondi", "Uttara",
+        "Shyamoli", "Sabujbag", "Dewanbag", "Jatrabari", "Biman Bandar", "Uttara",
+        "Shahjahanpur", "Pirerbagh", "Kalabagan", "Mohammadpur", "Mohakhali DOHS",
+        "Biman Bandar", "Mohammadpur", "New Eskaton", "Dhanmondi", "Mogbazar",
+        "Farmgate", "Kamalapur"
+    ]
+
+
+"Location Name": [
+        "NADDA PARA", "NEW BIKRAMPUR PHARMACY", "IBN SINA PHARMACY", "CITY BANK ATM",
+        "MADARTEK ABDUL AZIZ HIGH SCHOOL", "BISWA SAHITWA KENDRO", "SARKARI KARMACHARI HOSPITAL",
+        "ROYAL BUFFET", "PROTTASHA BRIDGE", "H 48, NEW ESKATON RD", "ABESH HOTEL BIRIYANI HOUSE",
+        "H 41, RD 2", "NANDIPARA GARMENTS RD", "NANDAN SELIM", "TEJGAON REGISTRATION COMPLEX JAAME MOSQUE",
+        "SHANTA GARDEN", "MOTIJHEEL IDEAL SCHOOL AND COLLEGE OFFICE", "HAWAI GOLI",
+        "MONSUR VABAN", "COAL POWER GENERATION COMPANY BANGLADESH LIMITED (CPGCBL)",
+        "KHATUN E JANNAT JAME MASJID", "BEAUTY", "THE TYRE & BATTERY BAZAR", "ISLAMI BANK BANGLADESH LIMITED",
+        "AIRPORT POLICE STATION", "SHAT TARA GOLI", "TETUL PARA SHAHI JAME MASJID",
+        "SOHRAWARDY AVENUE", "DNCC DEDICATED COVID-19 HOSPITAL", "DAKKHINPARA",
+        "HOME TOWN COMPLEX", "WALTON SERVICE CENTRE", "90/1 JOMIDAR GOLI", "ALHAZ MD NEWAZ ALI",
+        "HEALTHCARE BODY SPA", "HERITAGE SCHOOL", "AD DIN HOSPITAL RD", "HOUSE 51, ROAD 17",
+        "ENTRY GATE FOR RD 5", "HAZRAT SHAHJALAL INTERNATIONAL AIRPORT", "RAYER BAZAR",
+        "MILK VITA RD", "BLOCK C, TAJMAHAL ROAD", "IBN SINA CONSULTATION & DIAGNOSTIC CENTER",
+        "NORTHERN UNIVERSITY (PERMANENT CAMPUS)"
+    ],
+    "Address": [
+        "Boisakhe Mor, Hazi Camp Rd, Nadda Para, Dakshinkhan", "H 19/1, Rankin St, Wari",
+        "H 48, RD 9A, Dhanmondi", "Maruf Market, Malibagh", "Poschim Madartek Road, Purbo Nondipara, Shahjahanpur",
+        "H 17, Bishwa Sahitto Kendro Ln, Paribag, Ramna", "Priya Bhaban 1, Section 2, Banani",
+        "Residential Area, Dhanmondi", "Dhaka Ashulia Highway, Bhatalia, Uttara", "New Eskaton",
+        "Mirpur - 2", "PC Culture Housing Society, Mohammadpur", "Nandipara Basabo",
+        "Block D, Bashundhara R/A", "Love Road, East Nakhalpara, Niketon",
+        "Motijheel", "Mazar Rd, AGB Colony, Motijheel", "Moddho Bashabo, Shahjahanpur",
+        "House 125, Peer Shaheber Goli, Shantinagar, Kakrail", "Unique Heights, Level 17, Eskaton",
+        "Hazi Piar Ali Rd, Rustampur", "318, Al Haj Abdus Sobhan Road, Block B, Bashundhara R/A",
+        "H 60, Kazi Nazrul Islam Ave, East Tejturipara", "Basabo Market Road, Tempo Stand, Middle Basabo",
+        "New Airport Road", "Mogbazar", "Namapara Tetul Tola", "Baridhara, Gulshan",
+        "Mohakhali", "Dakkhinpara", "87 New Eskaton Road", "Dhaka Chittagong Highway, Sign Board, Shiddhirganj, Narayanganj",
+        "Shiddheswari, Ramna", "H 882, RD 10, Khilgaon", "Gulshan 1", "Chashara, Narayanganj",
+        "Moghbazar", "Sector 11, Uttara", "Hazrat Shahjalal International Airport, Kurmitola",
+        "Bhuiyan Eastate, Outer Stadium", "Mirpur 2", "Mohammadpur", "Dhanmondi",
+        "Jashim Uddin Member Rd, Ahiyaan City, Dakshinkhan"
+    ],
+    "Classified Area": [
+        "Nadda", "Wari", "Dhanmondi", "Malibagh", "Shahjahanpur", "Paribag", "Banani",
+        "Dhanmondi", "Uttara", "New Eskaton", "Mirpur", "Mohammadpur", "Basabo",
+        "Bashundhara", "Nakhalpara", "Motijheel", "Motijheel", "Shahjahanpur",
+        "Shantinagar", "Eskaton", "Rustampur", "Bashundhara", "Tejturipara", "Basabo",
+        "Biman Bandar", "Mogbazar", "Tetul Tola", "Baridhara", "Mohakhali", "Dakkhinpara",
+        "New Eskaton", "Shiddhirganj", "Shiddheswari", "Khilgaon", "Gulshan", "Narayanganj",
+        "Moghbazar", "Uttara", "Biman Bandar", "Rayer Bazar", "Mirpur", "Mohammadpur",
+        "Dhanmondi", "Dakshinkhan"
+    ]
+
+
+"Location Name": [
+        "SHAMSUR MADRASA CIRCLE", "RADIANT", "SHADHINATA TOWER", "LA-BAY SERVICES",
+        "4/7 BLOCK A", "@42", "SNACKBAR EXPRESS", "JAMUNA FUTURE PARK", "DUTCH BANGLA BANK",
+        "AAA ENGINEERS", "9/1, ROAD NO 7", "H 479, RD 16", "NAMAPARA", "POLICE BOX",
+        "JAHAN", "FUTURE TECHNOLOGY", "AIRPORT ROAD", "AZMIRI HOTEL AND RESTURANT",
+        "WHITE SMILE DENTISTRY", "WASA", "MK ELECTRONICS", "SPRING DALE", "DAY DREAMERS HQ",
+        "ULAB", "ABINTA KABIR FOUNDATION SCHOOL", "SARA SIMRAN", "SALBON FILLING STATION",
+        "CHILIS", "ALBRATOSS EDUCATION", "CRYSTAL PALACE", "POLWEL CARANATION SHOPPING CENTRE",
+        "BAF PARKING", "GERMAN CLUB", "BANGLADESH EYE HOSPITAL", "SONALI BANK LTD ATM",
+        "ACCESS TO INFORMATION OFFICE", "DER FOOD ISLAND", "EMERGENCY DEPARTMENT (NIRTOT)",
+        "BAY'S LAKEWOOD", "H 33/6, TAJMAHAL RD", "KHAMAR BARI", "THAI CHI RESTAURANT AND CAFE",
+        "MUTUAL TRUST BANK LIMITED", "MOTALIB PLAZA", "AFROZA BEGUM ROAD"
+    ],
+    "Address": [
+        "H 29, RD 6, South Banasree Project", "Rampura Banashree RD, Block E, Banashree",
+        "H 1667, Bir Uttam Ziaur Rahman RD, Shaheenbag", "Bosila, Mohammadpur", "Lalmatia",
+        "Road 1, Niketon Block A, Niketon Housing Society, Gulshan", "Food Zone, Naya Paltan",
+        "Progati Sarani, Bashundhara R/A", "Road 2, Nikunja 2", "Sector 11, Uttara", "Lalmatia",
+        "Block F, Bashundhara R/A", "Bashundhara R/A", "Manik Mia Ave, Dhanmondi", "Jigatola Main RD, Jigatola",
+        "Kemal Ataturk Avenue, Banani", "New Airport Road, Kurmitola, Sector 2", "Ashkona RD, Dakshinkhan",
+        "Road 130, Gulshan 1", "Darussalam, Mirpur", "H 4/1, Mirpur RD, Lalmatia", "Banashree, Block D",
+        "Sector 17, Uttara", "H 56, RD 4A, Dhanmondi", "Madani Avenue, Bashundhara R/A", "Kaderabad Housing, Mohammadpur",
+        "Dhaka Mymensingh Highway", "Sector 6, Uttara", "Sector 4, Uttara", "Sector 7, Uttara",
+        "RD 140, Gulshan 1", "Sector 8, Uttara", "Bir Uttam Ziaur Rahman RD, Shaheenbag",
+        "Gulshan 2", "Sat Masjid RD, Dhanmondi", "Mirpur RD, Lalmatia", "Prime Minister's Office RD, Tejgaon",
+        "3/8, North Peerbug, Mukti Housing, Dokkhon Monipur", "Sayed Mahbub Morshed Road, Sher-e-Bangla Nagar",
+        "Sector 18, Uttara", "Tajmahal RD, Mohammadpur", "Khamarbari RD, Farmgate",
+        "H 117/A, Bijoy Sarani Tejgaon Link RD, Tejkunipara", "RD 34, Gulshan Ave, Gulshan 2",
+        "Hatirpool Circle", "Bashundhara R/A"
+    ],
+    "Classified Area": [
+        "Banasree", "Banashree", "Shaheenbag", "Mohammadpur", "Lalmatia", "Gulshan", "Naya Paltan",
+        "Bashundhara", "Nikunja", "Uttara", "Lalmatia", "Bashundhara", "Bashundhara", "Dhanmondi",
+        "Jigatola", "Banani", "Biman Bandar", "Dakshinkhan", "Gulshan", "Mirpur", "Lalmatia",
+        "Banashree", "Uttara", "Dhanmondi", "Bashundhara", "Mohammadpur", "Biman Bandar",
+        "Uttara", "Uttara", "Uttara", "Gulshan", "Uttara", "Shaheenbag", "Gulshan",
+        "Dhanmondi", "Lalmatia", "Tejgaon", "Monipur", "Sher-e-Bangla Nagar", "Uttara",
+        "Mohammadpur", "Farmgate", "Tejgaon", "Gulshan", "Hatirpool", "Bashundhara"
+    ]
+
+
+"Location Name": [
+        "SCIC SCHOOL", "SHOILPIC", "JAKARIA PHARMACY", "HAZRAT SHAHJALAL INTERNATIONAL AIRPORT",
+        "DOMINOS PIZZA", "STAR KABAB & RESTAURANT", "H 2, FELANI RD", "IMPERIAL HEAVEN",
+        "EASTERN GARDEN", "PRAPTI CITY", "NAKSHI PALACE", "SHAHANA MANSION", "KINGS KABAB AND RESTAURANT",
+        "COFFEE AVENUE", "BASHER POOL DOGAIR BAZAR", "UNIVIEW BANGLADESH", "AHMED LODGE",
+        "BURGWICH TOWN MIRPUR 1", "PONGKHUMIYA JAME MASJID", "71, MIDDLE PAIKPARA", "URBAN PANORAMA",
+        "LAKE LODGE", "A 1, ROAD 2", "H 25, RD 11", "SUBWAY ZONE", "WHITE FACE WASH MEN'S GROOMING SALOON",
+        "NSU ADMIN BUILDING", "BAITUL FALA JAME MASJID", "DHAKA POWER DISTRIBUTION COMPANY LTD",
+        "BANGLADESH AGRICULTURE RESEARCH COUNCIL (BARC)", "NURERCHALA TAHASIL OFFICE", "AARRANA",
+        "H 3 Q, RD 7", "SHAMSUDDIN TOWELS LIMITED", "DREAM STAR", "AHMED LODGE", "PIZAA INN",
+        "FRIENDS FASHION", "SHANTA ASSET MANAGEMENT LIMITED", "BOITHOK", "WEST TOLLABAGH ROAD",
+        "BIDDUT BHABAN", "H 9, RD 28", "ROAD 17", "SQUARE HOSPITAL LTD", "MAOLANA BHASANI ROAD",
+        "SHARIF HEIGHTS"
+    ],
+    "Address": [
+        "Zoo RD (Ciriagana RD), Mirpur 2", "403/C, I Block Road 4, Bashundhara R/A", "H 39/1, Sher E Bangla RD, Tali Office, West Dhanmondi",
+        "Terminal 1, Airport Road, New Airport Road, Kurmitola, Sector 2", "Residential Area, Dhanmondi",
+        "Block C, Banani", "Gulshan 1", "Chha 56/B, Badda Girls School Road, Dakkhin Badda, Gulshan",
+        "Garments Goli, West Razabazar, Indira Road, Khamarbari Mor, Farmgate", "Pagla Link RD, Pagla, Narayanganj",
+        "H 2/KA/14, Habibullah RD, Shahbag", "H 27, RD 1, Block A, Banasree", "RD 3, Niketon",
+        "Zafrabad, Mohammadpur", "Dogair Bazar", "Block G, Banani", "13, Salim Uddin Market Road, Senpara Parbata, Ahmed Nagar",
+        "Zoo Road, Mirpur 1", "Rani Mohol Boro Vanga RD, Dustbin, Zahir Raihan Sharani RD, Noorbagh, Siddikbazar",
+        "Mukti Housing, Moddho Paikpara", "Residential Area, Dhanmondi", "Sector 10, Uttara", "Mohanagar Housing Project, Niketon",
+        "Sector 13, Uttara", "Sector 13, Uttara", "Jigatola, Dhanmondi", "NSU Driveway, Block B, Bashundhara R/A",
+        "RD 4, Block E, Banasree", "Shahid Baki Sarak, Taltola, Khilgaon", "Old Airport RD, Monipuri Para",
+        "Nurerchala RD, Notun Bazar, Badda", "64/B, Road 15/A, Dhanmondi R/A", "RD 7, Block G, Bashundhara R/A",
+        "Kemal Ataturk Avenue, Banani", "H 21, Shadhinota Sarani, North Badda", "13, Salim Uddin Market Road, Senpara Parbata, Ahmed Nagar",
+        "RD 8, Banani", "Shimultoly RD, 1702", "Gulshan 1, Gulshan", "Block F, Banani",
+        "Maneshwar, Hazaribagh", "H 1, Abdul Gani RD, Purana Paltan", "Banani", "Bashundhara R/A",
+        "Panthapath", "Fakirapool, Paltan", "Block G, Banasree"
+    ],
+    "Classified Area": [
+        "Mirpur", "Bashundhara", "Dhanmondi", "Biman Bandar", "Dhanmondi", "Banani", "Gulshan",
+        "Gulshan", "Farmgate", "Narayanganj", "Shahbag", "Banasree", "Niketon", "Mohammadpur",
+        "Dogair", "Banani", "Senpara Parbata", "Mirpur", "Siddikbazar", "Paikpara",
+        "Dhanmondi", "Uttara", "Niketon", "Uttara", "Uttara", "Dhanmondi", "Bashundhara",
+        "Banasree", "Khilgaon", "Monipuri Para", "Badda", "Dhanmondi", "Bashundhara",
+        "Banani", "North Badda", "Senpara Parbata", "Banani", "Badda", "Gulshan",
+        "Banani", "Hazaribagh", "Paltan", "Banani", "Bashundhara", "Panthapath",
+        "Paltan", "Banasree"
+    ]
+
+
+
+ "Location Name": [
+        "HOUSE - 47, ROAD -11", "BOUDDHO MONDIR BUS STOPPAGE", "IMARAT MOTOR CYCLE ENGINE OIL",
+        "RASUL NAGAR", "PROJONMO BUS STOP", "SONAR BANGLA MEDIA", "TRIMOHONI POSCHIMPARA ALHE HADITH JAME MASJID",
+        "125/KHA, FRIENDS ROAD", "NOOR VILLA", "BANK ALFALAH LIMITED MIRPUR", "PATHAO HQ",
+        "MIRPUR 11 METRO RAIL STATION", "YASMEENS", "LUCKY STAR", "DUTCH BANGLA BANK ATM",
+        "MAA HOMEO PHARMACY", "FATEMAS FASHION", "PURBACHALGAS FILLING STATION", "NAVANA SOMERSET",
+        "AHNAF SANITORY", "5, KACHABAZAR ROAD", "BANK ASIA ATM", "NEW ROSHMELA SWEETS AND BAKERY",
+        "KHABAR BILASH", "THE JUTE 7", "TABAQ GRAMEENPHONE OFFICE", "INDIRA RD", "ANJUMAN MUFIDUL ISLAM RD",
+        "227, ROAD 12, SECTION 12", "1/11, SIR ALLAMA MUHAMMAD IQBAL ROAD", "KHILKHET BAZAR",
+        "RD 12/A, DHANMONDI LAKE PARK", "BASHIR RAZIA VILLA", "UTTARA BANK BRANCH 26", "SAC, NSU RD",
+        "HASHIM TOWER", "FAMILY HOUSE 2", "WOODEN SPOON", "NEVIN GENERAL STORE", "PIZZA WALY",
+        "AARONG", "MIRPUR DOHS", "RANGS NIKETON", "NATIONAL HEART FOUNDATION HOSPITAL", "RDE 6, BLOCK B",
+        "H 48, INDIRA ROAD", "ROAD 10 BLOCK D HOUSE 328", "HOUSE 83/5, OMAR ALI LANE"
+    ],
+    "Address": [
+        "Sector-13, Uttara", "Autish Dipankar Road, Moddho Bashabo, Komlapur", "DIT RD, Malibagh Rail Gate, Malibagh",
+        "Dhaka, Bangladesh", "Atish Depankar Road, Moddho Bashabo, Shahjahanpur", "Nurerchala RD, Nurercahala",
+        "Banashree Demra RD, Khilgaon", "Mukti Housing, Dokkhon Pirerbagh", "Section 6", "Kalsi Road, Block D, Section 11, Mirpur",
+        "H CWN 3A, RD 49, Gulshan 2", "Mirpur 11, Dhaka", "House 227, Road 6C, Block B, Bashundhara R/A",
+        "Block F, Banani", "Airport Road, New Airport Road, Kurmitola, Sector 2", "Block D, RD 25, Block TA, Mirpur 12",
+        "Green Road, Dhanmondi", "Darus Salam Road, Darus Salam", "Chamilibagh, Dokkhon Shahjahanpur, Paltan",
+        "Green Road, Dhanmondi", "Section 10", "Shabag RD, Shahbag", "Vatara RD, Natun Bazar",
+        "Block B, Section 12, Pallabi (Kalshi Main Road), Mirpur", "Road 8, Kurmitola, Sector 3",
+        "Bashundhara RD, Bashundhara", "East Rajabazar, Tejgaon", "Naya Paltan", "Shahbag",
+        "Mohammadpur", "Khilkhet Bazar RD, Khilkhet", "Dhanmondi", "Banani", "Begum Rokeya Sharani, Section 11",
+        "Block B, Bashundhara R/A", "Uttara", "North Pererbug, Mukti Housing, Dokkhon Monipur",
+        "NSU Road, Bashundhara R/A", "Middle Badda", "Lake Drive Road, Middle Badda", "Tejgaon Gulshan Link Road, Gulshan 1",
+        "House 710, Road 10, Avenue D, Mirpur DOHS", "Road 9, Block C, Niketon, Gulshan", "Tolarbag, Mirpur 1",
+        "Banasree", "Farmgate", "Bashundhara", "West Rampura, Rampura"
+    ],
+    "Classified Area": [
+        "Uttara", "Bashabo", "Malibagh", "Dhaka", "Bashabo", "Badda", "Khilgaon", "Pirerbagh",
+        "Mirpur", "Mirpur", "Gulshan", "Mirpur", "Bashundhara", "Banani", "Biman Bandar",
+        "Mirpur", "Dhanmondi", "Darus Salam", "Paltan", "Dhanmondi", "Mirpur", "Shahbag",
+        "Vatara", "Mirpur", "Kurmitola", "Bashundhara", "Tejgaon", "Naya Paltan",
+        "Shahbag", "Mohammadpur", "Khilkhet", "Dhanmondi", "Banani", "Mirpur",
+        "Bashundhara", "Uttara", "Monipur", "Bashundhara", "Badda", "Badda",
+        "Gulshan", "Mirpur", "Gulshan", "Mirpur", "Banasree", "Farmgate",
+        "Bashundhara", "Rampura"
+    ]
+
+
+ "Location Name": [
+        "BIROTI RESTORA", "POPULAR PHARMACY", "BHUIYA LODGE", "NEST SOURCING LTD", "CRIMSON CUP",
+        "SUSHI KYUBEY", "CHEF'S TABLE", "THE BUFFET STORIES MIRPUR", "AMELA VILLA", "MOJAR TV",
+        "PALMYRA", "NORTH END COFFEE ROASTERS", "NAPD OFFICE", "DUTCH BANGLA BANK ATM",
+        "461, I BLOCK ROAD 1", "H 534, RD 11", "NONGOR", "BISHNURPRIYA HOTEL", "CP FIVE STAR",
+        "CHURCH HOLYCROSS", "GULSHAN LINK RD", "AZIM GARMENTS LTD", "SAULYS FOOD", "STAMFORD UNIVERSITY",
+        "IBN SINA HOSPITAL", "M/S MUKTA GENRAL STORE", "JANATA BANK LIMITED", "BEGUNBARI",
+        "BAITUL FALA JAME MASJID", "AL MATIN TOWER", "12/1/2, ROAD NO 2", "INMAS MIRPUR ROAD",
+        "H 16, RD 4", "SURGEPORT LOGISTICS PRIVATE LIMITED", "SABOZ AUTOMOBILES AND CAR WASH",
+        "LN 8, BENARASHI PALLI", "RD 12, BLOCK C", "930, SABRINA SOBHAN 4TH AVENUE ROAD",
+        "HOUSE 36, ROAD 7", "3/1, ROAD 3", "SHARIFA PHARMA", "NESCAFE", "NAMAPARA", "OXFORD REFRIGERATION",
+        "MUSLIN INTERNATIONAL LIMITED WAREHOUSE", "DOMINANT BUILDER LTD", "YMCA TRAINING CENTRE",
+        "BAR Q TONITE", "IDEAL COLLEGE"
+    ],
+    "Address": [
+        "Station RD, Kamalapur", "Zafrabad, Mohammadpur", "8, Road 3, Section 2", "RD 10, Mirpur DOHS",
+        "300 Feet Entrance, Bashundhara", "Road 50, Gulshan 2", "Gulshan 1", "Mirpur", "H 204/1, Rampura Titas RD, Block C, Banashree",
+        "Outer Circular RD, Kamalapur", "317, Road No 14, Block A, Bashundhara R/A", "Road 23, Gulshan 1",
+        "Kataban RD, Nilkhet", "Airport Road, New Airport Road, Kurmitola, Sector 2", "Bashundhara R/A",
+        "Baridhara DOHS", "323, Al Haj Abdus Sobhan Road, Block B, Bashundhara R/A", "Tati Bazar, Kotwali",
+        "Unmesh Datta Road, Noorbagh, Siddikbazar", "Holycross College RD, Farmgate", "Gulshan",
+        "Chadd Uddan Housing, Mohammadpur", "Panthapath", "Dhaka Chittagong Highway, Sayedabad",
+        "68, Road 15A, Dhanmondi R/A", "35/A, Salim Uddin Market Road, Senpara Parbata, Ahmed Nagar",
+        "West, Dhanmondi", "Ajmir, Tejgaon", "RD 4, Block E, Banashree", "146, Road 13B, Banani",
+        "Road No 2, Mukti Housing, Shyamoli", "Shahid Suhrawardy Medical College, Sher-e-Bangla Nagar",
+        "Mirpur 13", "Kemal Ataturk Avenue, Banani", "Road 3B, Sector 15, Uttara",
+        "Mirpur 10", "Mirpur 6", "Block D, Bashundhara R/A", "Uttara, Sector 13",
+        "Mukti Housing, Kallyanpur", "Section 6", "Khilgaon, Shahjahanpur", "Station RD, Kamalpur",
+        "Bashundhara R/A", "H 41/7, Culvert RD, Fakirapool", "Dholipara, Uttara",
+        "Section 6, Mirpur", "Savar", "27 (Old), Dhanmondi", "Central RD, Dhanmondi"
+    ],
+    "Classified Area": [
+        "Kamalapur", "Mohammadpur", "Mirpur", "Mirpur DOHS", "Bashundhara", "Gulshan",
+        "Gulshan", "Mirpur", "Banashree", "Kamalapur", "Bashundhara", "Gulshan", "Nilkhet",
+        "Biman Bandar", "Bashundhara", "Baridhara DOHS", "Bashundhara", "Kotwali", "Siddikbazar",
+        "Farmgate", "Gulshan", "Mohammadpur", "Panthapath", "Sayedabad", "Dhanmondi", "Senpara Parbata",
+        "Dhanmondi", "Tejgaon", "Banashree", "Banani", "Shyamoli", "Sher-e-Bangla Nagar",
+        "Mirpur", "Banani", "Uttara", "Mirpur", "Mirpur", "Bashundhara", "Uttara",
+        "Kallyanpur", "Mirpur", "Khilgaon", "Kamalapur", "Bashundhara", "Fakirapool",
+        "Uttara", "Mirpur", "Savar", "Dhanmondi", "Dhanmondi"
+    ]
+
+
+ "Location Name": [
+        "PANDA DUMPLINGS -PD", "HAWLADAR FURNITURES", "DHL EXPRESS HOTEL OFFICE", "EXIM BANK LIMITED",
+        "ROAD 23", "SHANGHAI 10", "TEJGAON THANA HEALTH COMPLEX", "DOMESTIC TERMINAL (DAC)",
+        "H 405, AFTAB UDDIN AHMED RD", "SECTOR 17, BLOCK H1", "NEW DHANSIRI RESTAURANT - GULSHAN2",
+        "HAZI ABDUL LATIF MANSION", "AMERICAN BURGER", "H 80/1, SHANTIBAG MASJID RD",
+        "HAVEN PLACE", "LINK IN LIMITED", "ITTADI SUPER SHOP", "ALLIANCE HANIF VILLA 2",
+        "BRAC BANK LIMITED ATM BOOTH", "SHAPTAK KAJORIA", "KOSHAI BARI RAILGATE",
+        "KARIM AND SONS", "SHAHID JANANI JAHANARA IMAM SARONI", "ARMANA GROUP LTD",
+        "MUGHDA MEDICAL COLLEGE AND HOSPITAL", "APR A4 HOUSE 6", "SHAW WALLACE BANGLADESH LID",
+        "SHWAPNO", "H 48, RD 5", "RD 1, BLOCK D", "KEEPEX", "LIMA DRY CLEANERS",
+        "AD DIN MEDICAL COLLEGE HOSPITAL", "IBA, UNIVERSITY OF DHAKA",
+        "H 0301/81, KAMAL KHAN RD", "KHAN MONJIL", "MORNING SUN SOUND & LIGHTING",
+        "BANASHREE PHYSICOTHERAPY CENTER", "ARADDHO", "HOUSE 80, ROAD 23",
+        "10, CENTRAL ROAD", "500/A, MIRPUR ROAD", "KURMITOLA GENERAL HOSPITAL",
+        "BUT VILLA", "UNITED HOSPITAL LIMITED"
+    ],
+    "Address": [
+        "Gulshan 2, Gulshan", "Sector 3, Uttara", "Joar Shahara, Kuril",
+        "DIT Road, Gulshan North Commercial Area, Gulshan 2", "Dakkhin Badda, Gulshan",
+        "Block C, Banani", "14/1D, Block D, Sir Sayed Road, Mohammadpur",
+        "Hazrat Shahjalal International Airport", "Block B, Bashundhara R/A",
+        "Uttara Residential Model Town", "Road 46, Gulshan 2, Gulshan",
+        "Alhaz Abdus Sobhan RD, Bashundhara R/A", "Shop 21/22 2, RD 46, Gulshan 2",
+        "Shantibag, Malibagh", "Zafrabad, Mohammadpur", "Block E, Banani",
+        "Shadhinota Sarani, North Badda", "Section 6, Mohakhali DOHS",
+        "Road 23, Block B, Banani", "Road 1, Lalmatia", "Dakshinkhan",
+        "Toyenbee Circular RD, Motijheel", "Dhanmondi", "Road 71, Gulshan 2, Gulshan",
+        "Hazi Kodom Ali RD, Mugdapara, Sabujbag", "Road 109, Gulshan 2",
+        "Road 126, Dakkhin Badda, Gulshan", "Kamal Ataturk Avenue, Banani",
+        "Nikunja 1", "Bashundhara R/A", "Sector 9, Uttara", "Dhanmondi",
+        "Wireless, Paltan", "Provost Banglo, Paltan", "Ibrahimpur",
+        "Krishibid Road, Senpara Parbata, Purba Kazipara", "Free School St, Kathalbagan",
+        "Block D, Banashree", "Dhanmondi", "Dakkhin Badda, Gulshan", "Dhanmondi",
+        "Dhanmondi", "Tongi Diversion Road, Dhaka", "Kalabagan", "Gulshan 2, Gulshan"
+    ],
+    "Classified Area": [
+        "Gulshan", "Uttara", "Kuril", "Gulshan", "Badda", "Banani", "Mohammadpur",
+        "Biman Bandar", "Bashundhara", "Uttara", "Gulshan", "Bashundhara", "Gulshan",
+        "Malibagh", "Mohammadpur", "Banani", "Badda", "Mohakhali DOHS", "Banani",
+        "Lalmatia", "Dakshinkhan", "Motijheel", "Dhanmondi", "Gulshan", "Mugda",
+        "Gulshan", "Badda", "Banani", "Nikunja", "Bashundhara", "Uttara", "Dhanmondi",
+        "Paltan", "Paltan", "Ibrahimpur", "Kazipara", "Kathalbagan", "Banashree",
+        "Dhanmondi", "Badda", "Dhanmondi", "Dhanmondi", "Kurmitola", "Kalabagan", "Gulshan"
+    ]
+
+
+
+"Location Name": [
+        "shedltech bithika", "MIDAS CENTER", "B.I.H.S GENERAL HOSPITAL", "HOUSE 524",
+        "EASTERN BANK LIMITED (EBL)", "GULSHAN NORTH CLUB", "19/D, UTTAR TOLARBAGH",
+        "ananda food house", "MASUM DECORATOR & CATERING", "ALI AHMED SCHOOL AND COLLEGE",
+        "365 PHOTOGRAPHY LIBRARY", "TANZIMUL UMMAH ALIM MADRASAH", "HOUSE 295/296",
+        "HOTEL AL FAYSAL", "DHAKA MEDICAL COLLEGE HOSPITAL", "INFINITY MEGAMALL",
+        "SHAH ALI BAGH", "ALI ASGAR HOSPITAL", "KOSHAI BARI RAIL CROSSING", "OFFICE OF THE EXECUTIVE ENGINEER",
+        "JAPAN GARDEN CITY BIDG NO. 10", "POLWEL CARNATION SHOPPING CENTRE", "RAKIB'S TEA STOLL",
+        "TSC MOR", "TRANSCOM DIGITAL", "ALI ASGAR HOSPITAL", "ARADDHO", "H K 75/8, RD 13",
+        "RAUF MANZIL", "H 985, RS 11", "expresso house", "113, road 4", "BIRDEM HOSPITAL",
+        "GREEN PEACE", "UTTARA CAR", "ROAD NO . 3", "TANI AUTO PARTS", "24/2, GREEN ROAD",
+        "DR BATRA'S HOMEOPATHY CLINIC", "RD 6A, DOLIPARA", "HOSPITAL CAFE", "HOUSE 16, ROAD 27",
+        "MOEN'S SHARMEENS", "IMBD AGENCY", "ITEM CRAFTS", "CRIMSON CUP COFFEE SHOP"
+    ],
+    "Address": [
+        "House 114/1, Mazar Road, Lalokuthi, Mirpur 1", "H 5, RD 27, Dhanmondi",
+        "Dar Us Salam Road, Abdul Rafiq Housing, Shah Ali Bagh", "Road 9, West Nakhalpara, Tejgaon",
+        "Road 11, Block D, Banani", "Road 71, Gulshan 2, Gulshan", "Uttara Bhaban 5/A, Mirpur 1",
+        "Banashree", "Block D, Banashree", "Khilgaon, Goran, Dhaka", "Dhanmondi",
+        "Sector 10, Uttara", "Kosai Bari Rail Crossing, Sector 2, Uttara",
+        "Toyenbee Circular RD, Arambagh", "Sir Sayed RD, University of Dhaka, Shahbag",
+        "Road 103, Gulshan 2, Gulshan", "Shah Ali Bagh", "Distilary Road, Gopibag, Dayaganj",
+        "Kosai Bari Level Crossing, Sector 2, Uttara", "Mods Zone O4, Dhaka WASA, Darussalam, Mirpur",
+        "Road 1, Mohammadpur", "Sector 8, Uttara", "Sector 6, Uttara", "Siddikbazar",
+        "Road 7, Sector 4, Uttara", "Distilary Road, Gopibag, Dayaganj", "Dhanmondi",
+        "Kalachandpur", "Free School St, Hatirpool", "Block G, Bashundhara R/A", "Kemal Ataturk Avenue, Banani",
+        "Block C, Bashundhara", "Shahbag Circle", "H 168/1, Green RD", "Dhaka Mymensingh Highway, Sector 9, Uttara",
+        "Section 6", "Road 35, Sector 7, Uttara", "Green Road, Dhanmondi",
+        "Progress Tower, Road 23, Gulshan 1", "Dolipara, Uttara", "Bir Uttam Ziaur Rahman Road, Mohakhali, Gulshan",
+        "Block J, Banani", "Sector 4, Uttara", "Banani DOHS", "Road 4, Sector 11, Uttara",
+        "Road 27 (New 16), Dhanmondi R/A"
+    ],
+    "Classified Area": [
+        "Mirpur", "Dhanmondi", "Shah Ali Bagh", "Tejgaon", "Banani", "Gulshan", "Mirpur",
+        "Banashree", "Banashree", "Khilgaon", "Dhanmondi", "Uttara", "Uttara",
+        "Arambagh", "Shahbag", "Gulshan", "Shah Ali Bagh", "Gopibag", "Uttara",
+        "Mirpur", "Mohammadpur", "Uttara", "Uttara", "Siddikbazar", "Uttara",
+        "Gopibag", "Dhanmondi", "Kalachandpur", "Hatirpool", "Bashundhara", "Banani",
+        "Bashundhara", "Shahbag", "Green Road", "Uttara", "Uttara", "Uttara",
+        "Dhanmondi", "Gulshan", "Uttara", "Gulshan", "Banani", "Uttara", "Banani DOHS",
+        "Uttara", "Dhanmondi"
+    ]
+
+
+
+ "Location Name": [
+        "SURKUNJO SDANGIT ACADEMY", "NORTH KAFRUL ROAD", "HOUSE 105", "LALBAG",
+        "PEDROLLO", "SHUMI'S HOT CAKE", "RD 2", "NAKHALPARA NOTUN RD", "HAZI BUILDING",
+        "SHUMAIYA'S PLACE", "PURBACHAL EXPRESS HIGHWAY", "H 111/2, RD 35", "KHANDKER TOWER",
+        "GARDENIA", "RD 1, BLOCK L", "SCARLET KNITWEARS LTD", "ONE BANK PLC", "MATBOR TOWER",
+        "PEACE PARK", "HUNGRY EYES FOOD CORNER", "AL MADINA PHARMACY 2", "H 2, TOYENBEE CIRCULAR RD",
+        "MAOLANA BHASANI ROAD", "CARBOLINE", "LINE 8, BLOCK A", "H 1 Z, RD 9", "H 366/7, RD 6",
+        "HOUSE 1C, ROAD 86", "KURMITOLA GENERAL HOSPITAL", "NORTH SOUTH UNIVERSITY",
+        "RD 7, BLOCK C", "THE VAPIANOO CAFE", "ROAD 12A", "HOTEL ARISTOCRAT IN RESTAURANT",
+        "KAKOLI BUS STOP", "HOUSE 430, ROAD 17", "BASIC HOMEOPATHY CLINIC", "HUNGRY STATION",
+        "APARAJITA (A1)", "ADNAN FRUIT STORE", "ARTISTIC DENTAL AID", "MOYEENS",
+        "NORTH KAFRUL, JHILPAR ROAD", "BISMILLAH GENERAL STORE", "CHANNEL 24",
+        "UNITED COMMERTIAL BANK LTD", "TRISHA DIGITAL STUDIO"
+    ],
+    "Address": [
+        "H 58, Honda ST, Tejkunipara", "577/A, North Kafrul Road, Purba Kazipara",
+        "Road 13, Block E, Banani", "Lalbagh", "KA 74/2, Pragoti Sarani, Nadda",
+        "Road 2, Sector 3, Uttara", "Sector 6, Uttara", "Mohakhali", "Block E, Banani",
+        "37, Road 35, Gulshan 2", "Purbachal Express Highway, Kuril", "Road 35, Gulshan 2",
+        "Gulshan Ave, Gulshan 1", "Eskaton Garden RD, Old Eskaton", "Arifabad R/A, Rupnagar, Pallabi",
+        "Plot B Road, BSCIC, Fatullah, Narayanganj", "Road 1, Kawranbazar, Tejgaon",
+        "Zigatola Main Road, Dhaka", "Road 6, Riajbagh, Khilgaon", "Link Road 9, Mirpur DOHS, Mirpur 12",
+        "Gulshan 2", "Toyenbee Circular RD, Fakirapool", "Wireless, Paltan", "Block K, Banani",
+        "Mirpur 10", "Block G, Bashundhara R/A", "Road 6, Baridhara DOHS", "Road 86, Gulshan 2",
+        "Kurmitola", "Bashundhara R/A", "Block C, Mirpur 13", "Satmasjid RD, Jigatola",
+        "Mirpur DOHS, Mirpur 12", "Gulshan 2", "Banani", "Block A, Bashundhara R/A",
+        "Main Road, Section 6", "Road 1, Section 6", "Shyamoli, Mohammadpur",
+        "Toyenbee Circular RD, Fakirapool", "Road 2, Block B, Niketon", "Road 102, Gulshan 2",
+        "Jhllpar Road, Ashar Alo Lake View Tower", "Road 10, Sector 09, Uttara",
+        "Shahid Tazuddin Ahmed Ave, Tejgaon Industrial Area", "Science Laboratory RD, Elephant RD",
+        "KA 1/B, Kalachandpur Main RD, Kalachandpur"
+    ],
+    "Classified Area": [
+        "Tejkunipara", "Purba Kazipara", "Banani", "Lalbagh", "Nadda", "Uttara",
+        "Uttara", "Mohakhali", "Banani", "Gulshan", "Kuril", "Gulshan", "Gulshan",
+        "Eskaton", "Pallabi", "Narayanganj", "Tejgaon", "Zigatola", "Khilgaon",
+        "Mirpur", "Gulshan", "Fakirapool", "Paltan", "Banani", "Mirpur", "Bashundhara",
+        "Baridhara DOHS", "Gulshan", "Kurmitola", "Bashundhara", "Mirpur", "Jigatola",
+        "Mirpur DOHS", "Gulshan", "Banani", "Bashundhara", "Section 6", "Section 6",
+        "Mohammadpur", "Fakirapool", "Niketon", "Gulshan", "Kafrul", "Uttara",
+        "Tejgaon", "Elephant Road", "Kalachandpur"
+    ]
+
+
+"Location Name": [
+        "POLOK FOOD & GENERAL STORE", "CREATIVE IT INSTITUTE", "MOMOTA ENTERPRISE", "CVSIT.COM.BD",
+        "H 21/44/A", "ALNA", "INFORMATIX", "UNIMERT DELIVERY HUB", "FIROZA MANSON",
+        "IBN SINA MEDICAL COLLEGE", "SUMAIYA ENTERPRISE", "INDOKEM BANGLADESH P L", "secrest recipe",
+        "NADP OFFICE", "FAKHRUDDIN RESTAURANT", "NEW AIRPORT RD", "363/9/A, NORTH PEREBUG",
+        "ARRIVAL FASHION LTD", "SAUDIA JAME MASJID", "RICEMAN", "H 14, RD 2, BLOCK A",
+        "PROYASH HALL", "H KA 28/3/3/A", "PERFECTO BEAUTY SALON", "NEW AIRPORT ROAD",
+        "H 140, SHAHID JANANI", "MOMIN KHABAR HOTEL", "QUAMROOM NOOR", "POLICE PARK PROJECT",
+        "JANNAT BEDDING", "HOUSE 26", "KOTBARI BAZAR", "SIKDER MEDICAL HALL", "BASHUNDHARA GATE SOUTH",
+        "BABA RAFI", "JUGANTOR ELECTRONICS", "WWW. HUMAYRA .COM.BD.", "NAYEEM RAIYAN HASAN",
+        "STAR PHARMA", "SHEIKH MEHER ALI RD", "UNIVERSITY OF ASIA PACIFIC", "ALIF -AYAT AMBULANCE SERVICE",
+        "HOUSE 10", "MAYA KANON", "ANTERIOR ARCHITECTS", "H 22", "OLIVE TOUCH", "ASHI DAG CIRCLE",
+        "CHOWDHURY BARI"
+    ],
+    "Address": [
+        "Sector 6, Uttara", "Uttara Branch, Sector 7", "Block F, Banani", "Block F, Banani",
+        "Jigatola Main RD, Jigatola", "Road 4, Sector 7, Uttara", "Bir Uttam AK Khandakar RD, Mohakhali",
+        "Gulshan 2, Gulshan", "H 60/2, Old Elephant RD, Noyatola", "Kalyanpur Villa RD, South Kallyanpur, Kallyanpur",
+        "Chowdhury Para, Malibagh", "Sector 7, Uttara", "SKS Tower, Mohakhali", "Kataban RD, Nilkhet",
+        "Shahid Tazuddin Ahmed Ave, Moghbazar", "Dhaka Cantonment", "Mukti Housing, Moddho Paikpara",
+        "Main Road, Section 6", "Khapara RD, Rustampur", "Doctor Goli, Malibagh", "Block A, Banashree",
+        "Road 10, Dhaka Cantonment", "Kuwaiti Masjid RD, Vatara", "Shyamoli, Mohammadpur", "Kurmitola, Sector 2",
+        "Elephant RD", "Zoo RD, Mirpur 2", "Iqbal RD, Mohammadpur", "Titas RD, Banashree", "Block C, Banashree",
+        "Block B, Banani", "Dakshin Azampur", "Kuwaiti Masjid RD, Vatara", "Madani Ave, Dhaka",
+        "Bashundhara City, Panthapath", "Dhaka Chittagong Highway, Banagram", "Block E, Banashree",
+        "Ranavola, Uttara", "Nurjahan RD, Mohammadpur", "1340", "Green RD, Farmgate",
+        "Monipur, Mirpur 2", "Sector 10, Uttara", "Block F, Bashundhara R/A", "Dhanmondi",
+        "Mirpur 10", "Hatirpool, Dhanmondi", "North Ibrahimpur", "Sat Masjid RD, Block F, Mohammadpur"
+    ],
+    "Classified Area": [
+        "Uttara", "Uttara", "Banani", "Banani", "Jigatola", "Uttara", "Mohakhali",
+        "Gulshan", "Noyatola", "Kallyanpur", "Malibagh", "Uttara", "Mohakhali",
+        "Nilkhet", "Moghbazar", "Cantonment", "Mirpur", "Mirpur", "Rustampur",
+        "Malibagh", "Banashree", "Cantonment", "Vatara", "Mohammadpur", "Kurmitola",
+        "Elephant Road", "Mirpur", "Mohammadpur", "Banashree", "Banashree",
+        "Banani", "Azampur", "Vatara", "Bashundhara", "Panthapath", "Banagram",
+        "Banashree", "Uttara", "Mohammadpur", "Ibrahimpur", "Farmgate",
+        "Mirpur", "Uttara", "Bashundhara", "Dhanmondi", "Mirpur", "Dhanmondi",
+        "Ibrahimpur", "Mohammadpur"
+    ]
+
+
+"Location Name": [
+        "BABUIL CYCLE STORE", "SOUTHEAST UNIVERSITY", "JAHAN MONJIL", "PREMIER SWEETS",
+        "DHANMONDI 4/A", "HOUSE 808", "ADPERIENCE LTD", "TENEMENT 1", "LAKE BREEZE",
+        "CP FIVE STAR - FASHION PARADISE", "PREMIER BANK PANTHAPATH", "SHUMI'S HOT CAKE",
+        "ZAHID MANSION", "SONARANG KABARSTHAN", "CHOTTOGRAM FAST FOOD", "BOTTOLA JAME MASJID",
+        "METROPOLITON COOPERATIVE HOUSING", "FITMENT CRAFT", "AMTOLI JAME MASJID",
+        "FISH & CO", "PIZZA HUT", "LUCKY STAR", "LUPINE", "ASMANI SADIQ",
+        "BANDHAN TELECOM", "LINE 10", "ROAD 1", "INTERFLG TRADING AGENCY LIMITED",
+        "HOUSE 629", "ABADIL ACADEMY", "GAOCHIA CHISTIA STORE", "FM ZAMAN",
+        "HOUSE 46", "SOVEREIGN", "GA HOUSE", "JIGATOLA BUS STAND", "SM KHALED'S HOME",
+        "HEALTHY FOOD", "BANGLADESH EYE HOSPITAL", "HOME HEALTH MEDICAL SERVICES",
+        "BLOCK D, AURANGZEB ROAD", "PROF. DR. M.R. KHAN", "TITAS PAE INTERNATIONAL",
+        "HOUSE 4", "KOBIR SUPER STORE", "BANGLADESH LASER SKIN CENTER",
+        "CITY CONSULTANCY LTD", "SQUARE HOSPITAL LTD", "HOUSE 28"
+    ],
+    "Address": [
+        "Begunbari RD, East Tejkunipara", "Nabisco Road, Industrial Area, Tejgaon",
+        "Block H, Banashree", "DIT Road, Rampura", "Beside Renesha Hospital, Dhanmondi",
+        "Road 18, Block K, Bashundhara R/A", "Mohakhali DOHS, Mohakhali",
+        "Block E, Bashundhara R/A", "Road 104, Gulshan 2, Gulshan", "Road 20, Sector 11, Uttara",
+        "Bir Uttam Kazi Nuruzzaman Road, West Panthapath", "Sayed Nazrul Islam Sharon 8, Purana Paltan",
+        "Road 2, Block C, Bashundhara R/A", "Sonarang", "Hazrat Shahjalal International Airport, Kurmitola",
+        "Hatirjheel Link RD, Tejgaon Industrial Area", "Madrasa RD LN, Mohammadpur",
+        "Mirpur DOHS", "New Airport Road, Mohakhali", "Bir Uttam Mir Shawkat Sarak, Gulshan 1",
+        "Sector 3, Uttara", "Block F, Banani", "Plot 297/D, Road 12, Block C, Bashundhara R/A",
+        "654 & 655, Block F, Road 20, Bashundhara R/A", "PWD Colony RD, Jigatola",
+        "Block A, Mirpur 10", "Niketon Housing Society, Gulshan", "Sector 11, Uttara",
+        "Block H, Bashundhara", "Road 8, Dakkhin Badda, Gulshan", "Adabor, Mohammadpur",
+        "Road 9 A, Nikunja 1", "Sector 11, Uttara", "Block G, Banani", "Bashundhara R/A",
+        "Satmasjid RD, Dhanmondi", "Block H, Banani", "Vertex Prominent, Mohakhali",
+        "Sat Masjid RD, Dhanmondi", "Section 1, Mirpur", "Block D, Aurangzeb Road, Mohammadpur",
+        "Dhanmondi", "House 484, Road 32, Mohakhali DOHS, Mohakhali", "Block G, Banani",
+        "TB Gate RD, Mohakhali", "Green Road, Dhanmondi", "Pantapath", "House 28, Block B, Banani"
+    ],
+    "Classified Area": [
+        "Tejkunipara", "Tejgaon", "Banashree", "Rampura", "Dhanmondi", "Bashundhara",
+        "Mohakhali", "Bashundhara", "Gulshan", "Uttara", "Panthapath", "Paltan",
+        "Bashundhara", "Sonarang", "Kurmitola", "Tejgaon", "Mohammadpur", "Mirpur DOHS",
+        "Mohakhali", "Gulshan", "Uttara", "Banani", "Bashundhara", "Bashundhara",
+        "Jigatola", "Mirpur", "Gulshan", "Uttara", "Bashundhara", "Badda", "Mohammadpur",
+        "Nikunja", "Uttara", "Banani", "Bashundhara", "Dhanmondi", "Banani", "Mohakhali",
+        "Dhanmondi", "Mirpur", "Mohammadpur", "Dhanmondi", "Mohakhali", "Banani",
+        "Mohakhali", "Dhanmondi", "Panthapath", "Banani"
+    ]
+
+
+"Location Name": [
+        "BABUIL CYCLE STORE", "SOUTHEAST UNIVERSITY", "JAHAN MONJIL", "PREMIER SWEETS",
+        "DHANMONDI 4/A", "HOUSE 808", "ADPERIENCE LTD", "TENEMENT 1", "LAKE BREEZE",
+        "CP FIVE STAR - FASHION PARADISE", "PREMIER BANK PANTHAPATH", "SHUMI'S HOT CAKE",
+        "ZAHID MANSION", "SONARANG KABARSTHAN", "CHOTTOGRAM FAST FOOD", "BOTTOLA JAME MASJID",
+        "METROPOLITON COOPERATIVE HOUSING", "FITMENT CRAFT", "AMTOLI JAME MASJID",
+        "FISH & CO", "PIZZA HUT", "LUCKY STAR", "LUPINE", "ASMANI SADIQ",
+        "BANDHAN TELECOM", "LINE 10", "ROAD 1", "INTERFLG TRADING AGENCY LIMITED",
+        "HOUSE 629", "ABADIL ACADEMY", "GAOCHIA CHISTIA STORE", "FM ZAMAN",
+        "HOUSE 46", "SOVEREIGN", "GA HOUSE", "JIGATOLA BUS STAND", "SM KHALED'S HOME",
+        "HEALTHY FOOD", "BANGLADESH EYE HOSPITAL", "HOME HEALTH MEDICAL SERVICES",
+        "BLOCK D, AURANGZEB ROAD", "PROF. DR. M.R. KHAN", "TITAS PAE INTERNATIONAL",
+        "HOUSE 4", "KOBIR SUPER STORE", "BANGLADESH LASER SKIN CENTER",
+        "CITY CONSULTANCY LTD", "SQUARE HOSPITAL LTD", "HOUSE 28"
+    ],
+    "Address": [
+        "Begunbari RD, East Tejkunipara", "Nabisco Road, Industrial Area, Tejgaon",
+        "Block H, Banashree", "DIT Road, Rampura", "Beside Renesha Hospital, Dhanmondi",
+        "Road 18, Block K, Bashundhara R/A", "Mohakhali DOHS, Mohakhali",
+        "Block E, Bashundhara R/A", "Road 104, Gulshan 2, Gulshan", "Road 20, Sector 11, Uttara",
+        "Bir Uttam Kazi Nuruzzaman Road, West Panthapath", "Sayed Nazrul Islam Sharon 8, Purana Paltan",
+        "Road 2, Block C, Bashundhara R/A", "Sonarang", "Hazrat Shahjalal International Airport, Kurmitola",
+        "Hatirjheel Link RD, Tejgaon Industrial Area", "Madrasa RD LN, Mohammadpur",
+        "Mirpur DOHS", "New Airport Road, Mohakhali", "Bir Uttam Mir Shawkat Sarak, Gulshan 1",
+        "Sector 3, Uttara", "Block F, Banani", "Plot 297/D, Road 12, Block C, Bashundhara R/A",
+        "654 & 655, Block F, Road 20, Bashundhara R/A", "PWD Colony RD, Jigatola",
+        "Block A, Mirpur 10", "Niketon Housing Society, Gulshan", "Sector 11, Uttara",
+        "Block H, Bashundhara", "Road 8, Dakkhin Badda, Gulshan", "Adabor, Mohammadpur",
+        "Road 9 A, Nikunja 1", "Sector 11, Uttara", "Block G, Banani", "Bashundhara R/A",
+        "Satmasjid RD, Dhanmondi", "Block H, Banani", "Vertex Prominent, Mohakhali",
+        "Sat Masjid RD, Dhanmondi", "Section 1, Mirpur", "Block D, Aurangzeb Road, Mohammadpur",
+        "Dhanmondi", "House 484, Road 32, Mohakhali DOHS, Mohakhali", "Block G, Banani",
+        "TB Gate RD, Mohakhali", "Green Road, Dhanmondi", "Pantapath", "House 28, Block B, Banani"
+    ],
+    "Classified Area": [
+        "Tejkunipara", "Tejgaon", "Banashree", "Rampura", "Dhanmondi", "Bashundhara",
+        "Mohakhali", "Bashundhara", "Gulshan", "Uttara", "Panthapath", "Paltan",
+        "Bashundhara", "Sonarang", "Kurmitola", "Tejgaon", "Mohammadpur", "Mirpur DOHS",
+        "Mohakhali", "Gulshan", "Uttara", "Banani", "Bashundhara", "Bashundhara",
+        "Jigatola", "Mirpur", "Gulshan", "Uttara", "Bashundhara", "Badda", "Mohammadpur",
+        "Nikunja", "Uttara", "Banani", "Bashundhara", "Dhanmondi", "Banani", "Mohakhali",
+        "Dhanmondi", "Mirpur", "Mohammadpur", "Dhanmondi", "Mohakhali", "Banani",
+        "Mohakhali", "Dhanmondi", "Panthapath", "Banani"
+    ]
+
+"Location Name": [
+        "ETCT", "NEUVE'MI CAFE & RESTRO", "36/A DHAKA HOUSING", "DHANMONDI HOQURS MARKET",
+        "SQUARE HOSPITAL LTD", "UTTARA SELL BAZAR", "H 9, RD 8", "JAHAR ALI", "SRIJONI",
+        "SHISHIR BINDU", "WOOD VIEW FURNITURE", "MY HOME - MY DREAM PLANET", "EVEREST",
+        "12, ROAD 6", "US BANGLA AIRLINES", "H 1419/12", "KAMAL GENERAL STORE",
+        "RAJA TEA STORE", "H 242/1", "smell 1", "ESKAYEF PHARMACEUTICALS LTD",
+        "UTTARA CLUB", "PRIMS LADIES HOSTEL", "SATMASJID RD", "NEW DHANSIRI RESTAURANT",
+        "LAB AID HOSPITAL", "BAGAN BILAS FLAT OWNERS ASSOCIATION", "69/A, OUTER CIRCULAR ROAD",
+        "GOPAL SAHA LN", "RAYER BAZAR COMMUNITY CENTRE", "ELEMENT", "BIKRAMOUR BOSTRALOY",
+        "MUKHOROCHOK RESTAURANT", "DELWAR STORE", "BANGLADESH-CHINA FRIENDSHIP EXHIBITION",
+        "HAZRAT SHAHJALAL INTERNATIONAL AIRPORT", "6, GREEN ROAD", "FARHANA & FERGANA",
+        "NUSRAT JAHAN KHUSBO TEA STALL", "BAITUL FALAH JAME MASJID", "1st CUP COFFEE BUSINESS OUTLET",
+        "BKASH CORPORATE OFFICE", "MEATBOX", "MULLUCK HOSSAIN MARKET", "AXIS",
+        "INDEPENDENT UNIVERSITY BANGLADESH", "HZRAT SHAHJALAL INTERNATIONAL AIRPORT", "BERLIN FOODS",
+        "JAMAN PALACE"
+    ],
+    "Address": [
+        "Block E, Banasree", "Sector 15, Uttara", "Uttor Adabor, Mohammadpur",
+        "House 42, Road 05, Sector 03, Uttara", "Panthapath RD, Kalabagan",
+        "Sector 7, Uttara", "Banasree, Rampura", "Mohakhali Wireless RD, Mohakhali",
+        "Station RD, Kamalapur", "Block I, Bashundhara R/A", "Block F, Banani",
+        "Sector 15, Uttara", "Tilapara, Khilgaon", "Section 12", "Gulshan North Avenue, Gulshan 2",
+        "Taltola Market RD, Khilgaon", "Line 7, Section 10", "Sector 13, Mirpur",
+        "Tilapara RD, Khilgaon", "Block E, Shahjahanpur", "Block B, Banani",
+        "Road 08, Sector 01, Uttara", "Road 3, Sector 11, Uttara", "Jigatola, Satmasjid RD",
+        "Road 46, Gulshan 2", "Road 4, Dhanmondi", "Block A, Bashundhara R/A",
+        "Wireless, Mogbazar", "Luxmibazar, Sutrapur", "Community Center Goli, Rayer Bazar",
+        "Minto Road, Wireless, Paltan", "Bazar RD, 1702", "House 120/B, Dilkusha RD, Dilkusha",
+        "Sector 4, Uttara", "Sector 4, Purbachal", "Terminal 2, Airport Road, Kurmitola, Sector 2",
+        "Green Road, Dhanmondi", "Janata Housing RD, Adabor", "Kalachandpur Main RD, Kalachandpur",
+        "S Kamruzzaman Sarani, Fulbaria", "Road 2, Sector 3, Uttara", "Bir Uttam Ziaur Rahman RD, Shaheenbag",
+        "Block A, Lalmatia", "Tongi College Road, Tongi", "Mirpur Road, Dhanmondi",
+        "Bashundhara R/A", "Terminal 1, Airport Road, Kurmitola, Sector 2",
+        "DNCC Market, Gulshan 1", "House 8, Lane 9, Block A, Mirpur 10"
+    ],
+    "Classified Area": [
+        "Banasree", "Uttara", "Mohammadpur", "Uttara", "Panthapath", "Uttara",
+        "Rampura", "Mohakhali", "Kamalapur", "Bashundhara", "Banani", "Uttara",
+        "Khilgaon", "Mirpur", "Gulshan", "Khilgaon", "Mirpur", "Mirpur",
+        "Khilgaon", "Shahjahanpur", "Banani", "Uttara", "Uttara", "Jigatola",
+        "Gulshan", "Dhanmondi", "Bashundhara", "Mogbazar", "Sutrapur",
+        "Rayer Bazar", "Paltan", "Bazar RD", "Dilkusha", "Uttara", "Purbachal",
+        "Kurmitola", "Dhanmondi", "Adabor", "Kalachandpur", "Fulbaria", "Uttara",
+        "Shaheenbag", "Lalmatia", "Tongi", "Dhanmondi", "Bashundhara", "Kurmitola",
+        "Gulshan", "Mirpur"
+    ]
+
+
+"Location Name": [
+        "H 158/3, CRESCENT RD", "GULSHAN RAILGATE", "HABIB MARKET", "HEAD 2 TOE",
+        "TONGI FIRE STATION", "alamin fruit market", "SWAPNO REKHA", "H 659, RD 20",
+        "talukder homeo mall", "NITOL NILOY TOWER", "SPRING RAJBARI", "BANK ASIA LTD",
+        "BEST ELECTRONICS", "NORTHERN GENERAL INSURANCE CO.", "EXPORT ZONE",
+        "HIGHLAKANDI HOUSE", "DOLLY KUNJO", "ROVWE POLLI UNIVERSITY COLLEGE",
+        "BRAC BANK HEAD OFFICE", "CHICKEN ST", "H 44, RD 8", "DUTCH BANGLA BANK LTD",
+        "HOUSE 44, ROAD 18", "NANDAN DALIM", "POST OFFICE ROAD", "SECRET RECIPE",
+        "DUTCH BANGLA BANK ATM BOOTH", "REDICAL HOSPITAL", "PRINCE BAZAR LTD",
+        "H KA 25", "ARIFABAD HOUSING ROAD", "PLOT 647, RD 3", "SHIYAL BARI CIRCLE BUS STOP",
+        "DHL EXPRESS SERVICE POINT", "COMBINED KINDERGARTEN SCHOOL", "FUCHKA SHOT",
+        "99, ROAD 3", "43/C, BLOCK E", "ROSENDALE", "DHANMONDI ORO DENTAL SURGERY",
+        "BASHIR UDDIN RD JAME MASJID", "KALIGANJ PAN SOCIETY", "SONCHORON",
+        "HESHEL ADDA", "BJRI COLONY ROAD", "RD 17, SECTOR 14", "AZIZ COMPLEX",
+        "AIUB AUDITORIUM", "MIRPUR 10 BUS STAND"
+    ],
+    "Address": [
+        "Crescent RD, Dhanmondi", "Atish Dipankar RD, Gulbagh, Malibagh",
+        "Sector 5, Uttara", "Mirpur DOHS", "Dhaka Mymensingh Highway, Purbo Arichpur",
+        "Sector 12, Purbachal", "H 17, RD 9B, Sector 5, Uttara", "Block F, Bashundhara R/A",
+        "H 50, RD 7, Block A, Mirpur 12", "Nikunjo 2", "32, Road 2, Sector 12",
+        "Shimultoly RD, 1702", "Begum Rokeya Sarani, Mirpur 11", "Bangabandhu Avenue, Purana Paltan",
+        "Pallabi, Mirpur 12", "Bizly Moholla, Block F, Mohammadpur", "D Block 6, Bashundhara R/A",
+        "Bhagal Mirzapur RD, 1702", "Bir Uttam Mir Shawkat Sarak, East Nakhalpara, Niketon",
+        "Mirpur RD, Kalabagan", "Janata Housing, Mohammadpur", "Kabi Faruk Sarani, Nikunja 2",
+        "Block J, Banani", "Block D, Bashundhara R/A", "Modhubajar, Dhanmondi 19",
+        "SKS Tower, Mohakhali", "Begum Rokeya Sharani, Section 12", "Shah Makhdum Ave, Sector 12",
+        "Mohammadpur Ring RD, Shyamoli", "Shahid Abdul Aziz RD, Block A, Bashundhara R/A",
+        "Extended Pallabi, Mirpur", "Block G, Bashundhara R/A", "Rupnagar",
+        "Bishwa Road Circle, Kuril", "Nandipara Main RD, Sabujbag, Khilgaon",
+        "Road 3, Bashundhara R/A", "Block C, Bashundhara R/A", "Asad Avenue, Mohammadpur",
+        "House 5, RD 3, Dhanmondi", "House 35, RD 1, New Market", "Bashir Uddin RD, Kalabagan",
+        "Ahsanullah RD, Sadarghat", "Green RD", "Sector 11, Uttara", "BJRI Colony RD, Dhanmondi",
+        "Sector 14, Uttara", "Sector 11, Uttara", "Sayem Sobhan Avnir RD, Bashundhara R/A",
+        "Section 6, Mirpur 10"
+    ],
+    "Classified Area": [
+        "Dhanmondi", "Malibagh", "Uttara", "Mirpur DOHS", "Tongi", "Purbachal",
+        "Uttara", "Bashundhara", "Mirpur", "Nikunja", "Uttara", "Uttara",
+        "Mirpur", "Paltan", "Mirpur", "Mohammadpur", "Bashundhara", "Mirzapur",
+        "Niketon", "Kalabagan", "Mohammadpur", "Nikunja", "Banani", "Bashundhara",
+        "Dhanmondi", "Mohakhali", "Mirpur", "Uttara", "Shyamoli", "Bashundhara",
+        "Mirpur", "Bashundhara", "Rupnagar", "Kuril", "Khilgaon", "Bashundhara",
+        "Bashundhara", "Mohammadpur", "Dhanmondi", "New Market", "Kalabagan",
+        "Sadarghat", "Green Road", "Uttara", "Dhanmondi", "Uttara", "Uttara",
+        "Bashundhara", "Mirpur"
+    ]
+
+"Location Name": [
+        "H 24, RD 7", "V I P TOWER", "TUINTAR LTD", "NSU RD", "H 285/2, RD 8/A",
+        "HUNGRY TREAT", "XINDIAN RESTAURANT", "SHARIATPUR RENT A CAR",
+        "BANANI SKATEPARK", "FARID HOSSAIN", "DONERCI FLAMING DOOR", "JCX CAMELIA",
+        "HOUSE 33, ROAD 4", "ALOKI", "BASHUNDHARA K BLOCK FIELD", "BRAC OFFICE",
+        "ENCHANTER", "INTERNATIONAL TERMINAL", "ENEAYET JAME MASJID",
+        "BANGLADESH EYE HOSPITAL", "76, GIRLS SCHOOL ROAD", "AL ARABIAN CAKE & SWEETS",
+        "GULISTAN", "COMMERCIAL MOHAKHALI SCHOOL ROAD", "MATERNAL & CHILD HEALTH TRAINING INSTITUTE",
+        "GOLDEN SUN", "CHIRTA", "SAFIAR VILLA", "LAB AID SPECIALIZED HOSPITAL",
+        "TEJGAON INDUSTRIAL AREA POLICE STATION", "EMBASSY OF ALGERIA IN DHAKA",
+        "DHAKA MEDICAL HOSPITAL", "EASTERN HOUSE APARTMENT", "SOBAR UPARE",
+        "SANMAR TOWER 2", "A TO Z GENERAL & TELECOM", "NCC BANK",
+        "YELLOW", "NUR JAHAN SUPER MARKET", "CITY BANK LTD", "HOUSE 495, ROAD 2",
+        "BRAC BANK HEAD OFFICE", "BROWNLORD", "ASMA MANZIL", "SECTOR 15, BLOCK B, PLAYGROUND",
+        "RAHIM BEPARI"
+    ],
+    "Address": [
+        "Banasree", "VIP Road, Naya Paltan", "Sector 4, Uttara", "Block B, Bashundhara R/A",
+        "Dhanmondi", "Abdullahpur Bus Stop, Uttara", "Residential Area, Dhanmondi",
+        "Block K, Bashundhara R/A", "Block K, Banani", "Block B, Mirpur 11",
+        "Road 27, Banani", "Block J, Bashundhara R/A", "Sector 5, Uttara",
+        "Tejgaon Link Road, Niketon, Gulshan", "Bashundhara K Block, Dhaka",
+        "Chad Uddin Housing, Mohammadpur", "Sector 13, Uttara", "Hazrat Shahjalal International Airport",
+        "Residential Area, Dhanmondi", "Sat Masjid Road, Dhanmondi",
+        "Girls School Road, Dhanmondi", "Bir Uttam A.K Khandaker Sorok, Mohakhali",
+        "Bangabandhu Ave, Motijheel", "Mohakhali, Gulshan", "Azimpur Lalbagh Road, Azimpur",
+        "Road 2, Block L, Banani", "Shanta Holdings Ltd, Gulshan 2", "Nobodoy Housing, Adabor",
+        "House 6, Road 4, Dhanmondi", "Shahid Tajuddin Ahmed Ave, Tejgaon I/A",
+        "Road 12, Block K, Baridhara", "Zahir Raihan Road, Noorbaugh, Siddikbazar",
+        "Circuit House Road, Kakrail", "House 11, Road 6, Dhanmondi",
+        "House 1/F, Shafiat Road, Block C, Bashundhara R/A", "Bir Uttam Mir Shawkat Sarak, Niketon",
+        "Shahid Janani Jahanara Imam Sarani, Nijhum Residential Area, Hazaribagh",
+        "House 15/2/A, Rankin St, Wari", "House 6, Mirpur Road, New Market",
+        "New Airport Road", "Road 4, Block D, Bashundhara R/A",
+        "Bir Uttam Mir Shawkat Sarak, East Nakhalpara, Niketon", "Wireless Gate, Mohakhali",
+        "House 30, Gopibagh 3rd Lane, Gopibagh", "Uttara", "Ghat Road, Rayer Bazar, Lalmatia"
+    ],
+    "Classified Area": [
+        "Banasree", "Paltan", "Uttara", "Bashundhara", "Dhanmondi", "Uttara",
+        "Dhanmondi", "Bashundhara", "Banani", "Mirpur", "Banani", "Bashundhara",
+        "Uttara", "Gulshan", "Bashundhara", "Mohammadpur", "Uttara", "Kurmitola",
+        "Dhanmondi", "Dhanmondi", "Dhanmondi", "Mohakhali", "Motijheel", "Mohakhali",
+        "Azimpur", "Banani", "Gulshan", "Adabor", "Dhanmondi", "Tejgaon",
+        "Baridhara", "Siddikbazar", "Kakrail", "Dhanmondi", "Bashundhara", "Niketon",
+        "Hazaribagh", "Wari", "New Market", "Kurmitola", "Bashundhara", "Niketon",
+        "Mohakhali", "Gopibagh", "Uttara", "Lalmatia"
+    ]
+
+
+"Location Name": [
+        "BPROPERTY UTTARA MARKETPLACE", "PIN POINT PHOTOGRAPHY", "LAB AID SPECIALIZED HOSPITAL",
+        "GOLDEN RICE", "AFTAB FINANCE", "BANALATA", "SUHAILA SUBHANA", "AZAN KHABAR GHAR",
+        "LABEL. SOLUTION 118.COM", "PUM ER GOLI", "EKANTA", "LOKNAQTH PHARMACY",
+        "KURIL PUBLIC TOILET", "SPARKLE BY LAMIA", "SENAPRANGAN", "ATHENA'S",
+        "DHANMONDI 15 BUS STAND", "FAMILY DENTAL ZONE", "GREEN JUICE BAR AND FAST FOOD",
+        "FARIHA DRUG HOUSE", "SUZENA'S CLOSET", "JAPAN GARDEN CITY", "AMBASSADOR GOLAM HOSSAIN HOUSE",
+        "BIJOY RAKEEN STRIKERS GROUND", "HOUSE 13, ROAD 10B", "THE PARK REDIANCE",
+        "DM", "869, 60 FEET", "H 833/4, SHAHID BAKI SARAK", "1349/1, EAST SHEWRAPARA ROAD",
+        "M.N. HUDA BHUIYA", "SHIULI", "HAPPY HEIGHTS", "RESONANCE", "44/27, Pantha Path",
+        "H 24, ESKATON GAEDEN RD", "Sheba Holdings Ltd", "H 159/1, RD 16", "ITVATA KALABAGAN RD",
+        "UTTARA SECTOR 10 WELFARE ASSOCIATION", "Xindian Restaurant", "H 27, RD 1",
+        "LANDMARK SURVEY CONSULTANT", "ARTSTAN CRAFT BD CORPORATE OFFICE", "6/10, 1/B Lalmatia Block C",
+        "HOTEL NANDINI", "BUET Graduates Club Ltd", "NET OFFICE LALBAGH", "HOUSE 15, ROAD 18"
+    ],
+    "Address": [
+        "Sonargaon Janapath, Sector 11, Uttara", "Niketon, Gulshan 1", "House 6, Road 4, Dhanmondi",
+        "H 215, Badda Bazar Rd, Middle Badda", "Kemal Ataturk Avenue, Banani",
+        "House 239, Road No. 2, Block B, Bashundhara R/A", "Block B, Banasree",
+        "H 13, RD 2, Sector 3, Uttara", "Block D, Banani", "Ahmadnagar, Middle Paikpara",
+        "H 41/24, RD 1, Mohammadpur", "Tati Bazar, Kotowali", "Bishaw Road, Kuril",
+        "West, Dhanmondi", "Matikata Road, Cantonment, Dhaka Cantonment",
+        "Block C, Banani", "Dhanmondi", "East Goran", "Green Road, Dhanmondi",
+        "Dokkhon Paikpara, Moddho Paikpara", "Gulshan 1, Gulshan", "Mohammadpur",
+        "Block H, Banani", "Section 13, Mirpur", "Sector 11, Uttara",
+        "House 412, NSU Driveway, Block B, Bashundhara R/A", "Sector 13, Uttara",
+        "60 Feet, Mukti Housing, Dokkhon Monipur", "Taltola, Khilgaon",
+        "East Shewrapara Road, West Kafrul, Purba Kazipara", "Notun Bazar, Mukti Housing, Moddho Paikpara",
+        "PC Culture Housing Society, Mohammadpur", "D Block, Bashundhara R/A",
+        "North Vasantek Road, Vasantek", "Pantha Path, Dhanmondi",
+        "Eskaton Garden Rd, Old Eskaton", "Purana Paltan", "Tilapara, Khilgaon",
+        "Kalabagan, 1702", "Road 1, Sector 10, Uttara", "H 55, 55/A, RD 27, Dhanmondi",
+        "Mohammadpur Housing Ltd, Mohammadpur", "Adabor, Mohammadpur",
+        "RD 10, Mirpur DOHS", "Lalmatia", "Shukrabad, Dhanmondi 32",
+        "Block I, Banani", "Azimpur", "Sector 11, Uttara"
+    ],
+    "Classified Area": [
+        "Uttara", "Gulshan", "Dhanmondi", "Badda", "Banani", "Bashundhara",
+        "Banasree", "Uttara", "Banani", "Paikpara", "Mohammadpur", "Kotowali",
+        "Kuril", "Dhanmondi", "Cantonment", "Banani", "Dhanmondi", "Goran",
+        "Dhanmondi", "Paikpara", "Gulshan", "Mohammadpur", "Banani", "Mirpur",
+        "Uttara", "Bashundhara", "Uttara", "Monipur", "Khilgaon", "Kafrul",
+        "Paikpara", "Mohammadpur", "Bashundhara", "Vasantek", "Dhanmondi",
+        "Eskaton", "Paltan", "Khilgaon", "Kalabagan", "Uttara", "Dhanmondi",
+        "Mohammadpur", "Mohammadpur", "Mirpur DOHS", "Lalmatia", "Dhanmondi",
+        "Banani", "Azimpur", "Uttara"
+    ]
+
+
+"Location Name": [
+        "BIVABOY", "POPULAR DIAGNOSTIC CENTRE LTD", "DEX JIGATOLA STATION",
+        "BHAI BHAI STORE", "M. AKHTAR ALI", "Jamuna Future Park Exit Way",
+        "Fatiha Mini Kitchen", "PRAAVA HEALTH", "Titumir College",
+        "LA GUSTOSA KITCHEN", "BIHS GENERAL HOSPITAL", "ASHA NIR",
+        "Sayedabad Filling Station", "Lucas Mor", "Amoree The Beauty House",
+        "SAGARIKA MULTIPURPOSE HALL", "Don Chamber", "ABC BARIDHARA LAKE TERRACE",
+        "Mohanagar Housing Project", "Kurmitola General Hospital",
+        "CHAYENEER", "Mirpur Pre Primary School", "Mirpur 1 Footover Bridge",
+        "GHOWSUL AZAM RESTAURANT", "PARADISE", "House 47, Lake Dr Road",
+        "Mirpur Road, Abdul Rafiq Housing", "A&A MS Ground", "B.M. Shaokat Ali",
+        "H 12, RD 4, BLOCK C", "1, Paribagh Garden Tower", "Tanmanna Complex",
+        "Shazeda Villa", "Hatirjheel Tower", "Luthfa Garden",
+        "H 531/3, RD 11, BARIDHARA DOHS", "Shopno Nagar", "MEAT N CHEEZ",
+        "Ranusree", "Jazira Fabrics", "MIAZY COMPUTER & PHOTOCOPY CENTRE",
+        "5/a/2, Block D", "HONGKONG SHANGHAI TOWER", "MOTIJHEEL",
+        "EDGE EDUCATION", "House 252, RD 3", "METAL LAL PATHAR",
+        "MUSLIM SWEETS & BAKERY", "POPULAR HOSPITAL"
+    ],
+    "Address": [
+        "156, Malibagh College Road, Malibagh Bazar Road, Malibagh",
+        "Residential Area, Dhanmondi", "Dhanmondi", "Nosor Uddin Rd, Matikata",
+        "14 (A), Road 95, Gulshan 2, Gulshan", "Progati Sarani, Bashundhara",
+        "Dakkhinpara, Mohakhali", "7, Road 17, Banani",
+        "Wireless Gate, Mohakhali", "Residential Area, Dhanmondi",
+        "Darussalam Rd, Darus Salam", "338, Main Road 13, Section 10",
+        "Dhaka Chittagong Highway, Swamibag", "Prime Minister Office Rd, West Nakhalpara",
+        "Eastern Pallabi, Mirpur 11.5", "RD 65, Dhaka Cantonment",
+        "Naraynganj Sadar, Narayanganj", "Block K, Baridhara",
+        "C 60, Road 4, Mohanagar Housing Project, Niketan",
+        "Tongi Diversion Road, Dhaka", "2 Number Line, Section 11",
+        "13, Rupnagar Road, Extended Pallabi, Mirpur",
+        "Section 1, Mirpur", "H 1/1/A, Atish Dipankar Rd, Maniknagar, Jatrabari",
+        "215, Road 12, Section 12", "Sector 7, Uttara",
+        "Abdul Rafiq Housing, Adabar", "Namapara, Dhaka-1229",
+        "38, Road 2, Section 12", "Banashree", "Paribagh",
+        "Mirpur Road 14, Kachukhet", "Block A, Banani",
+        "Lalkuthi, Mirpur", "175, Road 9, Section 12", "Baridhara DOHS",
+        "Shagufta New Road, Mirpur DOHS", "Rupnagar R/A, Mirpur 2",
+        "101, Road 13E, Banani", "Dhaka Narayanganj Rd, Gabtali",
+        "Shabdar Ali Master Rd, East Arichpur, Moinartek",
+        "Razia Sultana Road, Mohammadpur", "H 108, RD 11, Banani",
+        "Dilkusha, Motijheel", "Block F, Banani", "DOHS Baridhara",
+        "Senpara Parbata, Ahmed Nagar", "Dhanmondi Road 2, Dhanmondi R/A"
+    ],
+    "Classified Area": [
+        "Malibagh", "Dhanmondi", "Dhanmondi", "Matikata", "Gulshan",
+        "Bashundhara", "Mohakhali", "Banani", "Mohakhali", "Dhanmondi",
+        "Darussalam", "Section 10", "Swamibag", "Nakhalpara",
+        "Mirpur 11.5", "Cantonment", "Narayanganj", "Baridhara",
+        "Niketan", "Kurmitola", "Mirpur", "Mirpur", "Mirpur",
+        "Jatrabari", "Section 12", "Uttara", "Adabar", "Namapara",
+        "Section 12", "Banashree", "Paribagh", "Kachukhet",
+        "Banani", "Mirpur", "Section 12", "Baridhara DOHS",
+        "Mirpur DOHS", "Mirpur 2", "Banani", "Gabtali",
+        "Moinartek", "Mohammadpur", "Banani", "Motijheel",
+        "Banani", "Baridhara DOHS", "Ahmed Nagar", "Dhanmondi"
+    ]
+
+
+
+"Location Name": [
+        "BIVABOY", "POPULAR DIAGNOSTIC CENTRE LTD", "DEX JIGATOLA STATION",
+        "BHAI BHAI STORE", "M. AKHTAR ALI", "Jamuna Future Park Exit Way",
+        "Fatiha Mini Kitchen", "PRAAVA HEALTH", "Titumir College",
+        "LA GUSTOSA KITCHEN", "BIHS GENERAL HOSPITAL", "ASHA NIR",
+        "Sayedabad Filling Station", "Lucas Mor", "Amoree The Beauty House",
+        "SAGARIKA MULTIPURPOSE HALL", "Don Chamber", "ABC BARIDHARA LAKE TERRACE",
+        "Mohanagar Housing Project", "Kurmitola General Hospital",
+        "CHAYENEER", "Mirpur Pre Primary School", "Mirpur 1 Footover Bridge",
+        "GHOWSUL AZAM RESTAURANT", "PARADISE", "House 47, Lake Dr Road",
+        "Mirpur Road, Abdul Rafiq Housing", "A&A MS Ground", "B.M. Shaokat Ali",
+        "H 12, RD 4, BLOCK C", "1, Paribagh Garden Tower", "Tanmanna Complex",
+        "Shazeda Villa", "Hatirjheel Tower", "Luthfa Garden",
+        "H 531/3, RD 11, BARIDHARA DOHS", "Shopno Nagar", "MEAT N CHEEZ",
+        "Ranusree", "Jazira Fabrics", "MIAZY COMPUTER & PHOTOCOPY CENTRE",
+        "5/a/2, Block D", "HONGKONG SHANGHAI TOWER", "MOTIJHEEL",
+        "EDGE EDUCATION", "House 252, RD 3", "METAL LAL PATHAR",
+        "MUSLIM SWEETS & BAKERY", "POPULAR HOSPITAL"
+    ],
+    "Address": [
+        "156, Malibagh College Road, Malibagh Bazar Road, Malibagh",
+        "Residential Area, Dhanmondi", "Dhanmondi", "Nosor Uddin Rd, Matikata",
+        "14 (A), Road 95, Gulshan 2, Gulshan", "Progati Sarani, Bashundhara",
+        "Dakkhinpara, Mohakhali", "7, Road 17, Banani",
+        "Wireless Gate, Mohakhali", "Residential Area, Dhanmondi",
+        "Darussalam Rd, Darus Salam", "338, Main Road 13, Section 10",
+        "Dhaka Chittagong Highway, Swamibag", "Prime Minister Office Rd, West Nakhalpara",
+        "Eastern Pallabi, Mirpur 11.5", "RD 65, Dhaka Cantonment",
+        "Naraynganj Sadar, Narayanganj", "Block K, Baridhara",
+        "C 60, Road 4, Mohanagar Housing Project, Niketan",
+        "Tongi Diversion Road, Dhaka", "2 Number Line, Section 11",
+        "13, Rupnagar Road, Extended Pallabi, Mirpur",
+        "Section 1, Mirpur", "H 1/1/A, Atish Dipankar Rd, Maniknagar, Jatrabari",
+        "215, Road 12, Section 12", "Sector 7, Uttara",
+        "Abdul Rafiq Housing, Adabar", "Namapara, Dhaka-1229",
+        "38, Road 2, Section 12", "Banashree", "Paribagh",
+        "Mirpur Road 14, Kachukhet", "Block A, Banani",
+        "Lalkuthi, Mirpur", "175, Road 9, Section 12", "Baridhara DOHS",
+        "Shagufta New Road, Mirpur DOHS", "Rupnagar R/A, Mirpur 2",
+        "101, Road 13E, Banani", "Dhaka Narayanganj Rd, Gabtali",
+        "Shabdar Ali Master Rd, East Arichpur, Moinartek",
+        "Razia Sultana Road, Mohammadpur", "H 108, RD 11, Banani",
+        "Dilkusha, Motijheel", "Block F, Banani", "DOHS Baridhara",
+        "Senpara Parbata, Ahmed Nagar", "Dhanmondi Road 2, Dhanmondi R/A"
+    ],
+    "Classified Area": [
+        "Malibagh", "Dhanmondi", "Dhanmondi", "Matikata", "Gulshan",
+        "Bashundhara", "Mohakhali", "Banani", "Mohakhali", "Dhanmondi",
+        "Darussalam", "Section 10", "Swamibag", "Nakhalpara",
+        "Mirpur 11.5", "Cantonment", "Narayanganj", "Baridhara",
+        "Niketan", "Kurmitola", "Mirpur", "Mirpur", "Mirpur",
+        "Jatrabari", "Section 12", "Uttara", "Adabar", "Namapara",
+        "Section 12", "Banashree", "Paribagh", "Kachukhet",
+        "Banani", "Mirpur", "Section 12", "Baridhara DOHS",
+        "Mirpur DOHS", "Mirpur 2", "Banani", "Gabtali",
+        "Moinartek", "Mohammadpur", "Banani", "Motijheel",
+        "Banani", "Baridhara DOHS", "Ahmed Nagar", "Dhanmondi"
+    ]
+
+

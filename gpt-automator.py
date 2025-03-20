@@ -14,7 +14,7 @@ from selenium.common.exceptions import TimeoutException, NoSuchElementException
 # Load and clean the CSV
 file_path = "unique_pickup_points.csv"
 try:
-    df = pd.read_csv(file_path, names=["Location"], skiprows=1)  # Skip header if needed
+    df = pd.read_csv(file_path, names=["Location"], skiprows=1130)  # Skip header if needed
     df["Location"] = df["Location"].str.strip().str.replace('"', '')
     print(f"✅ Loaded {len(df)} locations from CSV.")
 except Exception as e:
@@ -72,7 +72,7 @@ def send_prompt(prompt):
         )
         send_button.click()
 
-        print(f"✉️ Sent prompt with {prompt.count('\n') + 1} locations.")
+        print(f"✉️ Sent prompt with {len(prompt.splitlines())} locations.")
 
         # Wait for the stop generation button to appear first (means generation started)
         try:
@@ -149,8 +149,9 @@ def move_downloaded_files():
             print(f"📂 Moved downloaded file to: {new_location}")
 
 
-def process_csv_in_batches(df, batch_size=50):
-    """ Reads the CSV in batches and loops indefinitely """
+def process_csv_in_batches(df, batch_size=50, skip_rows=1129):
+    """ Reads the CSV in batches and skips a certain number of rows from the beginning """
+
     total_batches = (len(df) + batch_size - 1) // batch_size
 
     while True:
@@ -159,7 +160,7 @@ def process_csv_in_batches(df, batch_size=50):
             print(f"🔄 Processing batch {batch_num}/{total_batches}")
 
             batch = df.iloc[i:i + batch_size]["Location"].tolist()
-            prompt = "Process these locations:\n\n" + "\n".join(batch)
+            prompt = "Process these locations: " + ", ".join(batch)
 
             response = send_prompt(prompt)
             if response:
@@ -177,8 +178,8 @@ def process_csv_in_batches(df, batch_size=50):
 
 
 try:
-    # Start the loop
-    process_csv_in_batches(df, batch_size=50)
+    # Skip the first 100 rows in the CSV (for example)
+    process_csv_in_batches(df, batch_size=50, skip_rows=100)
 except KeyboardInterrupt:
     print("👋 Script interrupted by user.")
 except Exception as e:

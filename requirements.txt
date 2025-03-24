@@ -12,3 +12,5 @@ shapely
 contextily
 folium
 pyautogui
+sqlalchemy
+psycopg2

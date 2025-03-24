@@ -2,7 +2,6 @@
   { "name": "Banani", "coordinates": [23.795776412441885, 90.40059866197136] },
   { "name": "Dhanmondi", "coordinates": [23.756145335773166, 90.3752049039763] },
   { "name": "Mohammadpur", "coordinates": [23.764761943463284, 90.36141725361] },
-  { "name": "Motijheel", "coordinates": [23.72803511270881, 90.4189512703504] },
   { "name": "Tejgaon", "coordinates": [23.760241355126915, 90.39493791000042] },
   { "name": "Uttara", "coordinates": [23.871914171277222, 90.40268037374634] },
   { "name": "Mirpur-1", "coordinates": [23.79866152850312, 90.35351194176343] },
@@ -18,7 +17,6 @@
   { "name": "Sadarghat (Old Dhaka)", "coordinates": [23.70968161756059, 90.41012793070153] },
   { "name": "Azimpur", "coordinates": [23.72857198418771, 90.38523011376334] },
   { "name": "Shahbag", "coordinates": [23.739720573010242, 90.39430624705521] },
-  { "name": "Nilkhet", "coordinates": [23.732309926380424, 90.38509732571757] },
   { "name": "Dhaka University Area", "coordinates": [23.734066135780765, 90.39304321403978] },
   { "name": "New Market", "coordinates": [23.73341957275141, 90.38412044842131] },
   { "name": "Kawran Bazar", "coordinates": [23.752510698005647, 90.39445954157975] },
@@ -41,7 +39,6 @@
   { "name": "Kallyanpur", "coordinates": [23.778693122893703, 90.35996155932382] },
   { "name": "Shantinagar", "coordinates": [23.738261623074038, 90.41424269719411] },
   { "name": "Purbachal", "coordinates": [23.837315165759325, 90.48403260647582] },
-  { "name": "Siddheswari", "coordinates": [23.743617686760267, 90.4089428686417] },
   { "name": "Mirpur DOHS", "coordinates": [23.837472909446657, 90.3711050212429] },
   { "name": "Dhaka Cantonment", "coordinates": [23.796531879053997, 90.39302373286438] },
   { "name": "Abdullahpur", "coordinates": [23.88015599382719, 90.40163960155931] }
